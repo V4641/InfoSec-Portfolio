@@ -85,7 +85,7 @@ Languages:
 
 ## My roadmap
 
-Stand now, I did finish my Security+ certificate, which was the baseline for me to start looking at the job market. As for now, my roadmap includes this portfolio, uploading projects, pentest reports and other experiments.
+At the current time, I did finish my Security+ certificate, which was the baseline for me to start looking at the job market. As for now, my roadmap includes this portfolio, uploading projects, pentest reports and other experiments.
 I do aim for Junior SOC or Security Consulting roles at the moment.
 Other Certifications I do aim for in the somewhat near future is AWS CCP, to gain experience with cloud enviroments, THM Sal1 (hands on SOC certificate), CompTIA CySA to build on Security+ as well as CompTIA Pentest+ as Offensive Security was what hooked me in the beginning.
 
