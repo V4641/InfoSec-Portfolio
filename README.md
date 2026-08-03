@@ -28,7 +28,7 @@ Welcome to my domain
   
   > compliance, audits, security awareness training
   
-## My sills and tools
+## My skills and tools
 
 In addition to getting certifications, alltho they also include hands on  practice, be it in full or partially, I do try to broaden my knowledge and capability in multiple directions.
 
