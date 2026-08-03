@@ -78,6 +78,11 @@ digital humanities, but quickly realised it is less about history and more about
 from my old course and fully committ to InfoSec in March of 2026, inspired by someone close to pick up the trait. It has been nothing but excitement to learn and dig into a world that is so vast and I am more than eager to continuisly improve, learn and develop.
 And while I did not study CS, I am more than capable to write comprehensive and deep analysis reports as well as translate those to a non tech audience.
 
+Languages:
+- German C2
+- English C1-C2
+- Latinum (not that this is relevant but I have it and I list it :3)
+
 ## My roadmap
 
 Stand now, I did finish my Security+ certificate, which was the baseline for me to start looking at the job market. As for now, my roadmap includes this portfolio, uploading projects, pentest reports and other experiments.
