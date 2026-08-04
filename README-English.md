@@ -18,7 +18,7 @@ Welcome to my domain
 - TryHackMe Pre Security (Sec0) | April 16th, 2026
   > Networking Fundamentals, Security Concepts, Windows / Linux fundamentals, Hardware Fundamentals, Offensive / Defensive Security Fundamentals
 - TryHackMe Cyber Security 101 (Sec1) | May 4th, 2026
-  > Network Traffic, Web Vulnerabilities, Security Operations, Brutefocing / Cracking, Malware Analysis (All hands on)
+  > Network Traffic, Web Vulnerabilities, Security Operations, Bruteforcing / Cracking, Malware Analysis (All hands on)
 - CompTIA Security+ | August 2nd, 2026
   > Security concepts, cryptography, threat detection, vulnerability management, security architecture,
 
@@ -30,7 +30,7 @@ Welcome to my domain
   
 ## My skills and tools
 
-In addition to getting certifications, alltho they also include hands on  practice, be it in full or partially, I do try to broaden my knowledge and capability in multiple directions.
+In addition to getting certifications, although they also include hands on  practice, be it in full or partially, I do try to broaden my knowledge and capability in multiple directions.
 
 ### Offensive
 
