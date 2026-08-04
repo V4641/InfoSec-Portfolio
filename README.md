@@ -43,7 +43,7 @@ All experiments were conducted either with my own hardware, selfthosted vm's or 
 - Hashcat / John the Ripper
   > Hash cracking either by bruteforce or wordlist
 - RFID cloning
-  > Copying insecure access cards and demonstrating AC necesaties
+  > Copying insecure access cards and demonstrating the necessity of securing physical access tokens
 - Replay Attacks
   > Using captured IR or Sub-GHZ signals to gain access 
 - USB Kill
