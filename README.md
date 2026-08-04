@@ -85,8 +85,8 @@ from my old course and fully commit to InfoSec in March of 2026, inspired by som
 And while I did not study CS, I am more than capable of writing comprehensive and deep analysis reports as well as translating those to a non tech audience.
 Besides being able to hold my own in numerous presentations in front of large audiences, another transferrable skill is a critical and analytical mind,
 that collects all relevant sources, correlates them and is able to comprehensively analyse data.
-What I do lack in theoretical CS knowledge, I try to make up by self study, while also having the advantage of knowing how people work on a deep level. I studied human behavior over the centuries.
-And human behavior is a primary security concern.
+What I do lack in theoretical CS knowledge, I try to make up by self study, while also having the advantage of knowing how people work on a deep level. I studied human behavior across the centuries.
+And human behavior still is a primary security concern.
 
 
 Languages:
