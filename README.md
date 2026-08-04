@@ -16,9 +16,9 @@ Welcome to my domain
 - Google Cybersecurity | April 15th, 2026
   > Security theory fundamentals, SQL, Python, SIEM tooling (Splunk)
 - TryHackMe Pre Security (Sec0) | April 16th, 2026
-  > Networking Fundamentals, Security Concepts, Windows / Linux fundamentals, Hardware Fundamentals, Offensive / Defensive Security Fundamentals
+  > Networking fundamentals, security concepts, Windows / Linux fundamentals, hardware fundamentals, offensive / defensive security fundamentals
 - TryHackMe Cyber Security 101 (Sec1) | May 4th, 2026
-  > Network Traffic, Web Vulnerabilities, Security Operations, Bruteforcing / Cracking, Malware Analysis (All hands on)
+  > Network traffic, web vulnerabilities, security operations, bruteforcing / cracking, malware analysis (all hands on)
 - CompTIA Security+ | August 2nd, 2026
   > Security concepts, cryptography, threat detection, vulnerability management, security architecture,
 
@@ -34,20 +34,22 @@ In addition to getting certifications, although they also include hands on  prac
 
 ### Offensive
 
+All experiments were conducted either with my own hardware, selfthosted vm's or a secure sandbox enviroment
+
 - Havoc Command and Control
-  > Experimenting with the private deployment and management of remote access trojans and the integration into a C2 botnet
+  > Experimenting deployment and management of remote access trojans and the integration into a C2 botnet
 - Metasploit
-  > Exploiting known CVEs in a secure sandbox
+  > Exploiting known CVEs on deliberately vulnerable machines
 - Hashcat / John the Ripper
   > Hash cracking either by bruteforce or wordlist
 - RFID cloning
-  > Consentual copying insecure access cards
+  > Copying insecure access cards and demonstrating AC necesaties
 - Replay Attacks
   > Using captured IR or Sub-GHZ signals to gain access 
 - USB Kill
-  > Using high voltage pulses through USB-Ports to learn about surge protection and potential hardware level destruction
+  > Using high voltage pulses through USB-Ports to learn about surge protection and potential hardware level destruction as well as board level forensics
 - Rubber Ducky
-  > Self Programming a Pi Pico to mask as a HID and inject Code
+  > Programming a Pi Pico to mask as a HID and inject code
 
 ### Reconnaissance
 
