@@ -83,7 +83,7 @@ Due to my tech interest growing and my interest in the M.A decreasing I decided 
 from my old course and fully commit to InfoSec in March of 2026, inspired by someone close to pick up the trade. It has been nothing but excitement to learn and dig into a world that is so vast and I am more than eager to continuously improve, learn and develop.
 
 And while I did not study CS, I am more than capable of writing comprehensive and deep analysis reports as well as translating those to a non tech audience.
-Besides being able to hold my own in numerous presentations in front of large audiences, another transferrable skill is a critical and analytical mind,
+Besides being able to hold my own in numerous presentations in front of large audiences, another transferable skill is a critical and analytical mind,
 that collects all relevant sources, correlates them and is able to comprehensively analyse data.
 What I do lack in theoretical CS knowledge, I try to make up by self study, while also having the advantage of knowing how people work on a deep level. I studied human behavior across the centuries.
 And human behavior still is a primary security concern.
