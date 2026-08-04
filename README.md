@@ -1,4 +1,4 @@
-# Well hello there, I am Elea Novah
+# Hello there, I am Elea Novah
 
 ### Historian turned InfoSec | CompTIA Security+
 
@@ -7,7 +7,7 @@
 
 Greetings! I am a studied historian, pivoting towards Cybersecurity.
 The aim of this repo is to demonstrate both theoretical skills with the certifications I own as well as hands on skills with my own projects.
-Welcome to my domain
+Welcome to my portfoliio
 
 ## My certifications
 
