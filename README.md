@@ -73,16 +73,21 @@ All experiments were conducted either with my own hardware, selfthosted vm's or 
 
 ## Background and education
 
-I am a woman from Germany, 30 years old and hold an Abitur, which is roughly the equivalent to a highschool diploma with advanced placement classes.
-I did study 'Historical Sciences' (which is mostly history, but combined with a bit of philosophy, theology, psychology and digital humanities) at the Uni Passau, earning my Bachelor of Arts in July 4th, 2024.
+I am a woman from Germany and hold an Abitur, which is roughly the equivalent to a highschool diploma with advanced placement classes.
+I did study 'Historical Sciences' (which is mostly history, but combined with a bit of philosophy, theology, psychology and digital humanities) at the University of Passau, earning my Bachelor of Arts in July 4th, 2024.
 
 In the meantime I already developed a newfound interest in tech, starting out with micro controllers and C# programming, but decided to continue my studies for the 'M.A in History and Humanities', which also included
-digital humanities, but quickly realised it is less about history and more about teaching it to others, be it in a university context or in education.
+digital humanities, but quickly realised it is less about history itself but more about teaching it in the field of education.
 
 Due to my tech interest growing and my interest in the M.A decreasing I decided to pivot away
-from my old course and fully commit to InfoSec in March of 2026, inspired by someone close to pick up the trait. It has been nothing but excitement to learn and dig into a world that is so vast and I am more than eager to continuously improve, learn and develop.
+from my old course and fully commit to InfoSec in March of 2026, inspired by someone close to pick up the trade. It has been nothing but excitement to learn and dig into a world that is so vast and I am more than eager to continuously improve, learn and develop.
 
-And while I did not study CS, I am more than capable to write comprehensive and deep analysis reports as well as translate those to a non tech audience.
+And while I did not study CS, I am more than capable of writing comprehensive and deep analysis reports as well as translate those to a non tech audience.
+Besides being able to hold my own in numerous presentations in front of large audiences, another transferrable skill is a critical and analytical mind,
+that collects all relevant sources, correlates them and is able to comprehensively analyse data.
+What I do lack in theoretical CS knowledge, I try to make up by self study, while also having the advantage of knowing how people work on a deep level. I studied human behavior over the centuries.
+And human behavior is a primary security concern.
+
 
 Languages:
 - German C2
@@ -93,7 +98,17 @@ Languages:
 
 At the current time, I did finish my Security+ certificate, which was the baseline for me to start looking at the job market. As for now, my roadmap includes this portfolio, uploading projects, pentest reports and other experiments.
 I do aim for Junior SOC or Security Consulting roles at the moment.
-Other Certifications I do aim for in the somewhat near future is AWS CCP, to gain experience with cloud enviroments, THM Sal1 (hands on SOC certificate), CompTIA CySA to build on Security+ as well as CompTIA Pentest+ as Offensive Security was what hooked me in the beginning.
+Other Certifications and Qualifications I do aim for:
+- Splunk Search Expert 101-103
+  > As it is a core part of most SIEM operations and I aim for that field in particular
+- AWS CCP
+  > due to the importance and high usage of cloud enviroments, I deem a deeper understanding on an operational level benefitial
+- TryHackMe SAL1
+  > since it is a hands on SOC simulation certificate
+- CompTIA CySA
+  > as it is the natural progression after Security+
+- CompTIA Pentest+
+  > as despite my current trajectory, offensive security was what got me into the field and I wish to broaden my understanding on this side as well
 
 ## Contact
   **elea-novah@proton.me**
