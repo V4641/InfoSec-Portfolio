@@ -2,6 +2,8 @@
 
 ### Historian turned InfoSec | CompTIA Security+
 
+![](https://komarev.com/ghpvc/?username=V4641&color=blueviolet&style=plastic)
+
 
 ## Who I am 
 
