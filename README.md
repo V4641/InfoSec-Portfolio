@@ -71,7 +71,7 @@ In addition to getting certifications, alltho they also include hands on  practi
 
 ## Background and education
 
-I am a women from Germany, 30 years old and hold an Abitur, which is roughly the equivalent to a highschool diploma with advanced placement classes.
+I am a woman from Germany, 30 years old and hold an Abitur, which is roughly the equivalent to a highschool diploma with advanced placement classes.
 I did study 'Historical Sciences' (which is mostly history, but combined with a bit of philosophy, theology, psychology and digital humanities) at the Uni Passau, earning my Bachelor of Arts in July 4th, 2024.
 In the meantime I already developed a newfound interest in tech, starting out with micro controllers and C# programming, but decided to continue my studies for the 'M.A in History and Humanities', which also included
 digital humanities, but quickly realised it is less about history and more about teaching it to others, be it in a university context or in education. Due to my tech interest growing and my interest in the M.A decreasing I decided to pivot away
