@@ -37,7 +37,7 @@ In addition to getting certifications, although they also include hands on  prac
 - Havoc Command and Control
   > Experimenting with the private deployment and management of remote access trojans and the integration into a C2 botnet
 - Metasploit
-  > Exploiting known CVE's in a secure sandbox
+  > Exploiting known CVEs in a secure sandbox
 - Hashcat / John the Ripper
   > Hash cracking either by bruteforce or wordlist
 - RFID cloning
@@ -73,9 +73,13 @@ In addition to getting certifications, although they also include hands on  prac
 
 I am a woman from Germany, 30 years old and hold an Abitur, which is roughly the equivalent to a highschool diploma with advanced placement classes.
 I did study 'Historical Sciences' (which is mostly history, but combined with a bit of philosophy, theology, psychology and digital humanities) at the Uni Passau, earning my Bachelor of Arts in July 4th, 2024.
+
 In the meantime I already developed a newfound interest in tech, starting out with micro controllers and C# programming, but decided to continue my studies for the 'M.A in History and Humanities', which also included
-digital humanities, but quickly realised it is less about history and more about teaching it to others, be it in a university context or in education. Due to my tech interest growing and my interest in the M.A decreasing I decided to pivot away
-from my old course and fully committ to InfoSec in March of 2026, inspired by someone close to pick up the trait. It has been nothing but excitement to learn and dig into a world that is so vast and I am more than eager to continuisly improve, learn and develop.
+digital humanities, but quickly realised it is less about history and more about teaching it to others, be it in a university context or in education.
+
+Due to my tech interest growing and my interest in the M.A decreasing I decided to pivot away
+from my old course and fully commit to InfoSec in March of 2026, inspired by someone close to pick up the trait. It has been nothing but excitement to learn and dig into a world that is so vast and I am more than eager to continuously improve, learn and develop.
+
 And while I did not study CS, I am more than capable to write comprehensive and deep analysis reports as well as translate those to a non tech audience.
 
 Languages:
