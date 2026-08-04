@@ -44,7 +44,7 @@ In addition to getting certifications, alltho they also include hands on  practi
   > Consentual copying insecure access cards
 - Replay Attacks
   > Using captured IR or Sub-GHZ signals to gain access 
-- USB Kill v4
+- USB Kill
   > Using high voltage pulses through USB-Ports for hardware level destruction
 - Rubber Ducky
   > Self Programming a Pi Pico to mask as a HID and inject Code
