@@ -45,7 +45,7 @@ In addition to getting certifications, alltho they also include hands on  practi
 - Replay Attacks
   > Using captured IR or Sub-GHZ signals to gain access 
 - USB Kill
-  > Using high voltage pulses through USB-Ports for hardware level destruction
+  > Using high voltage pulses through USB-Ports to learn about surge protection and potential hardware level destruction
 - Rubber Ducky
   > Self Programming a Pi Pico to mask as a HID and inject Code
 
