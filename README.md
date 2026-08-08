@@ -37,7 +37,7 @@ In addition to getting certifications, although they also include hands on  prac
 
 ### Offensive
 
-All experiments were conducted either with my own hardware, selfthosted vm's or a secure sandbox enviroment
+All experiments were conducted either with my own hardware, selfthosted vm's or a secure sandbox environment 
 
 - Havoc Command and Control
   > Experimenting deployment and management of remote access trojans and the integration into a C2 botnet
@@ -68,7 +68,7 @@ All experiments were conducted either with my own hardware, selfthosted vm's or 
 - SIEM tooling
   > Using Splunk through the THM Soc Simulator, alert triaging and log analysis
 - Incident Response
-  > Giving users after a RAT infections consultation about how to contain, eradicate and harden their systems
+  > Giving consultation after a RAT infection about how to contain, eradicate and harden their system
 - System Hardening
   > Best practices in network architecture, password hygiene and security concept implementations
 - Reverse engineering
