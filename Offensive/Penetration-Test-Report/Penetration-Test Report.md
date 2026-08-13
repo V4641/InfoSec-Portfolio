@@ -23,16 +23,20 @@ Goals:
 
 ## 3. Methodology
 
-A gray box environment was created with only the IP adress of the target system known. 
+A black box environment was created with only the IP adress of the target system known. 
 The test itself follows roughly the Penetration Testing Execution Standard as far as this is possible within a virtual environment.
 
 ### 3.1 Reconnaissance
-  Using ICMP and Nmap to confirm target being online and scanning for open ports and vulnerabilities
+  - Using ICMP to confirm target being online
+  - Using nmap to scan for open ports and vulnerabilities
 ### 3.2: Vulnerability Analysis
-  Discovering unpatched Windows vulnerabilities in form of MS17-010 and MS12-020
+  - Discovering unpatched Windows vulnerabilities in form of MS17-010 and MS12-020
 ### 3.3 Exploitation
-  Using the Metasploit framework to gain initial access to the system, leveraging MS17-010 to execute code remotely
-### 3.4 Permanency
+  - Using the Metasploit framework to gain initial access to the system
+  - Leveraging MS17-010 to execute code remotely
+### 3.4 Post-Exploitation
+  - Escalating from windows shell to meterpreter shell and migrating to spoolsv.exe
+  - Extration of password hashes and offline cracking
   
 
 ## 4. Timeline
