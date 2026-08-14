@@ -1,4 +1,7 @@
-### Work in Progress
+## Pentest README
 
-This is housing a pentest report, based on the actions taken on the TryHackMe room "Blue". 
-While the room itself has existing guidlines how to proceed, the work here is not just to demonstrate the ability to execute an attack, but to also demonstrate the ability to turn such action into a writeup
+In this directory, you will find a comprehensive writeup on the TryHackMe room "Blue", following the PTES framework as well as trying to tie legal concepts and remediation suggestions in a CTF environment.
+
+While this virtual box cannot comply to any NIS2 guidelines, it was written in the spirit of a real engagement.
+
+It was also my first time noting down such an attack chain, suggestions and imput is always appreciated :3
