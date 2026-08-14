@@ -62,7 +62,7 @@ For port 3389 (Remote Desktop) vulnerability ms12-020, also known as CVE-2012-00
 
 ![ms17-010](https://github.com/V4641/InfoSec-Portfolio/blob/main/Offensive/Penetration-Test-Report/Screenshots/Pentest/001%20Portscan_Vuln_2.png)
 
-For port 445 (Server Message Block) vulnerability ms17-010, also known as CVE-2017-0143 - 0148, was detected with a critical risk for remote code execution of 9.3 under CVSS scoring.
+For port 445 (Server Message Block) vulnerability ms17-010, also known as CVE-2017-0143 - 0148, was detected with a critical risk for remote code execution of 9.3 under CVSS 2.0 scoring.
 
 Ms17-010 was chosen as attack vector with the Metasploit framework, that presented 29 modules on ms17-010 and 2 moduls on ms12-020
 
@@ -139,7 +139,7 @@ Following this, other flags were discovered within the target system inside the 
 
 ### Finding 01:
 - Critical Remote Code Execution under MS17-010 (EternalBlue)
-- Severity: Critical (CVSS v2.0 Score: 9.8, CVSS 3.x: 8.8)
+- Severity: Critical (CVSS v2.0 Score: 9.3, CVSS 3.1: 8.8)
 - Affected Port: 445 (TCP - Server Message Block)
 
 Description:
