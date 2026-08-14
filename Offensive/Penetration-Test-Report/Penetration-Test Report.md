@@ -2,9 +2,9 @@
 
 ## 1. Managerial Summary
 
-This test was conducted on a virtual environment in compliance with NIS2 Article 21 to showcase if security controls were implemented correctly
+This test was conducted on a virtual environment in compliance with NIS2 Article 21 to showcase if security controls were implemented correctly.
 
-Critical risks were found within the tested system regarding outdated Server Message Block and Remote Desktop services. These vulnerabilities can lead to an attacker gaining full control in the form of the NT AUTHORITY\SYSTEM, gaining access to every file and process on the system.
+Critical security risks were found within the tested system regarding outdated Server Message Block and Remote Desktop services. These vulnerabilities can lead to an attacker gaining full control in the form of the NT AUTHORITY\SYSTEM, gaining access to every file and process within the system.
 
 Within a real network, this vulnerability could have significant negative impact on business operations due to stolen data being exfiltrated, as well as in regards to legal ramifications. After NIS2 Article 23, an exploitation of this vulnerability would be classified as 'severe' and would need to be reported to a CSIRT entity within 24 hours or otherwise risk high fines under NIS2 Article 34 Paragraphs 4 and 5 if this was a real buisness system and was exploited by an attacker.
 
