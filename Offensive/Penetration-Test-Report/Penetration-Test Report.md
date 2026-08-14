@@ -29,7 +29,7 @@ The test itself follows roughly the Penetration Testing Execution Standard as fa
 ### 3.1 Reconnaissance
   - Using ICMP to confirm target being online
   - Using nmap to scan for open ports and vulnerabilities
-### 3.2: Vulnerability Analysis
+### 3.2 Vulnerability Analysis
   - Discovering unpatched Windows vulnerabilities in form of MS17-010 and MS12-020
 ### 3.3 Exploitation
   - Using the Metasploit framework to gain initial access to the system
@@ -114,7 +114,7 @@ meterpreter>_ hashdump
 
 ![Migration-hashdump](https://github.com/V4641/InfoSec-Portfolio/blob/main/Offensive/Penetration-Test-Report/Screenshots/Pentest/005%20Meterpreter_hashdump.png)
 
-Migration was conducted into process 1304, spoolsv.exe to ensure a stable connection and chances to persist after reboot for further exploitation.
+Migration was conducted into process 1304, spoolsv.exe to ensure a stable connection.
 
 Following the migration, a hashdump was performed, revealing three password hashes, of which only one is not a default user. 
 
@@ -165,8 +165,7 @@ ISO 27001 Control Mapping:
 To comply with ISO 27001 and NIS2 as outlined in section 1, following actions are recommended to be performed immediately:
 
 - Patch Management: Update the system to prevent exploitation of long known exploits.
-- Recommendation to use SMBv3 instead of the highly insecure SMBv1
+- Recommendation to use SMBv3 or other solutions instead of the highly insecure SMBv1
 - Ensure necessery updates to harden Remote Desktop and potentially restrict access to port 3389
 - Enforce stricter password policy, both regarding length and complexity, but also check in with known leaked passwords
-- Recommendation of password hash salting
 - If password policy can not be enforced, recommendation to implement MFA for system access
