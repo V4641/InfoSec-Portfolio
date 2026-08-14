@@ -4,9 +4,9 @@
 
 This test was conducted on a virtual environment in compliance with NIS2 Article 21 to showcase if security controls were implemented correctly
 
-Critical risks were found within the tested system regarding outdated Server Message Block and Remote Desktop services. These vulnerabilities can lead to an attacker gaining full control in form of the NT AUTHORITY\SYSTEM, gaining access to every file and process on the system.
+Critical risks were found within the tested system regarding outdated Server Message Block and Remote Desktop services. These vulnerabilities can lead to an attacker gaining full control in the form of the NT AUTHORITY\SYSTEM, gaining access to every file and process on the system.
 
-Within a real network, this vulnerability could have significant negative impact on business operations due to stolen data being exfiltrated, as well as in regards to legal ramifications. After NIS2 Article 23, an exploitation of this vulnerability would be classified as 'severe' and would need to be reported to a CSIRT entity within 24 hours or otherwise risk high fines under NIS2 Article 34 Paragraph 4 and 5.
+Within a real network, this vulnerability could have significant negative impact on business operations due to stolen data being exfiltrated, as well as in regards to legal ramifications. After NIS2 Article 23, an exploitation of this vulnerability would be classified as 'severe' and would need to be reported to a CSIRT entity within 24 hours or otherwise risk high fines under NIS2 Article 34 Paragraphs 4 and 5 if this was a real buisness system and was exploited by an attacker.
 
 ## 2. Scope and Environment
 
@@ -23,7 +23,7 @@ Goals:
 
 ## 3. Methodology
 
-A black box environment was created with only the IP adress of the target system known. 
+A black box environment was created with only the IP address of the target system known. 
 The test itself follows roughly the Penetration Testing Execution Standard as far as this is possible within a virtual environment.
 
 ### 3.1 Reconnaissance
@@ -35,8 +35,8 @@ The test itself follows roughly the Penetration Testing Execution Standard as fa
   - Using the Metasploit framework to gain initial access to the system
   - Leveraging MS17-010 to execute code remotely
 ### 3.4 Post-Exploitation
-  - Escalating from windows shell to meterpreter shell and migrating to spoolsv.exe
-  - Extration of password hashes and offline cracking
+  - Escalating from Windows shell to Meterpreter shell and migrating to spoolsv.exe
+  - Extraction of password hashes and offline cracking
   
 ## 4. Timeline
 
@@ -64,7 +64,7 @@ For port 3389 (Remote Desktop) vulnerability ms12-020, also known as CVE-2012-00
 
 For port 445 (Server Message Block) vulnerability ms17-010, also known as CVE-2017-0143 - 0148, was detected with a critical risk for remote code execution of 9.3 under CVSS 2.0 scoring.
 
-Ms17-010 was chosen as attack vector with the Metasploit framework, that presented 29 modules on ms17-010 and 2 moduls on ms12-020
+Ms17-010 was chosen as attack vector with the Metasploit framework, that presented 29 modules for ms17-010 and 2 modules for ms12-020
 
 ```
 >_ msfconsole
@@ -121,14 +121,14 @@ Following the migration, a hashdump was performed, revealing three password hash
 The hash of user 'Jon' (aad3b435b51404eeaad3b435b51404ee:ffb43f0de35be4d9917ac0cc8ad57f8d) was cracked on the attacking machine.
 
 ```
->_ john jon.txt –-format=NT –wordlist=/usr/share/wordlists/rockyou.txt
+>_ john jon.txt --format=NT --wordlist=/usr/share/wordlists/rockyou.txt
 ```
 
 ![John](https://github.com/V4641/InfoSec-Portfolio/blob/main/Offensive/Penetration-Test-Report/Screenshots/Pentest/006%20John.png)
 
-The password for the User 'Jon' was identified as 'alqfna22'
+The password for the user 'Jon' was identified as 'a******2' within a minute using rockyou.txt
 
-Following this, other flags were discovered within the target system inside the C drive, which translated to flag{access_the_machine}, flag{sam_database_elevated_access} and flag{admin_documents_can_be_valuable}
+Following this, other flags were discovered within the target system inside the C drive, simulating confidential files.
 
 ![flag1](https://github.com/V4641/InfoSec-Portfolio/blob/main/Offensive/Penetration-Test-Report/Screenshots/Pentest/007%20Lateral_Movement_Flag1.png)
 
@@ -139,11 +139,11 @@ Following this, other flags were discovered within the target system inside the 
 
 ### Finding 01:
 - Critical Remote Code Execution under MS17-010 (EternalBlue)
-- Severity: Critical (CVSS v2.0 Score: 9.3, CVSS 3.1: 8.8)
+- Severity: Critical (CVSS v2.0 Score: 9.3, CVSS v3.1: 8.8)
 - Affected Port: 445 (TCP - Server Message Block)
 
 Description:
-The target system runs an old version of the Server Message Block (SMBv1) protocol without the MS17-010 security update. An attacker can gain access to the target system, execute code, escalate privileges to NT Authority\SYSTEM and gain full control over the target
+The target system runs an old version of the Server Message Block (SMBv1) protocol without the MS17-010 security update. An attacker can gain access to the target system, execute code, escalate privileges to NT AUTHORITY\SYSTEM and gain full control over the target.
 
 ISO 27001 Control Mapping:
 - A.8.8 Management of Technical Vulnerabilities: The organization failed to obtain information about technical vulnerabilities and apply critical patches to the system.
@@ -162,10 +162,13 @@ ISO 27001 Control Mapping:
 
 ## 6. Remediation Suggestions
 
-To comply with ISO 27001 and NIS2 as outlined in section 1, following actions are recommended to be performed immediately:
+To comply with ISO 27001 and NIS2 as outlined in section 1, the following actions are recommended to be performed immediately:
 
 - Patch Management: Update the system to prevent exploitation of long known exploits.
 - Recommendation to use SMBv3 or other solutions instead of the highly insecure SMBv1
-- Ensure necessery updates to harden Remote Desktop and potentially restrict access to port 3389
+- Ensure necessary updates to harden Remote Desktop and potentially restrict access to port 3389
 - Enforce stricter password policy, both regarding length and complexity, but also check in with known leaked passwords
 - If password policy can not be enforced, recommendation to implement MFA for system access
+- Configure firewall to limit inbound SMB or RDP traffic only to authorized personal
+- Deploy IDS or IPS to detect, alert and prevent signatures that point to unusual SMBv1 traffic
+- Ensure Network Layer Authentification is enabled for all RDP connections
