@@ -38,7 +38,7 @@ Those do include familiarizing myself with ISO 27001 and 27002 frameworks, NIS2 
 
 ### Offensive
 
-All experiments were conducted either with my own hardware, selfthosted vm's or a secure sandbox environment 
+All experiments were conducted either with my own hardware, selfhosted vm's or a secure sandbox environment 
 
 - Havoc Command and Control
   > Experimenting deployment and management of remote access trojans and the integration into a C2 botnet
@@ -112,7 +112,7 @@ Other Certifications and Qualifications I do aim for:
 - Splunk Search Expert 101-103
   > As it is a core part of most SIEM operations and I aim for that field in particular
 - AWS CCP
-  > due to the importance and high usage of cloud enviroments, I deem a deeper understanding on an operational level benefitial
+  > due to the importance and high usage of cloud enviroments, I deem a deeper understanding on an operational level beneficial
 - TryHackMe SAL1
   > since it is a hands on SOC simulation certificate
 - CompTIA CySA
