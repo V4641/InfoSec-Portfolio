@@ -34,6 +34,7 @@ Welcome to my portfolio, a continuous work in progress.
 ## My skills and tools
 
 In addition to getting certifications, although they also include hands on  practice, be it in full or partially, I do try to broaden my knowledge and capability in multiple directions.
+Those do include familiarizing myself with ISO 27001 and 27002 frameworks, NIS2 and MITRE ATT&CK, that I try to map some of my projects to.
 
 ### Offensive
 
@@ -41,6 +42,12 @@ All experiments were conducted either with my own hardware, selfthosted vm's or 
 
 - Havoc Command and Control
   > Experimenting deployment and management of remote access trojans and the integration into a C2 botnet
+- Penetration Testing
+  > While just in a controlled environment, following a pentest attack chain after the Penetration Testing Execution Standard
+  
+  > Mapping findings to ISO 27001 and MITRE ATT&CK frameworks
+  
+  > ![Penetration-Test "Blue" - TryHackMe](https://github.com/V4641/InfoSec-Portfolio/blob/main/Offensive/Penetration-Test-Report/Penetration-Test%20Report.md)
 - Metasploit
   > Exploiting known CVEs on deliberately vulnerable machines
 - Hashcat / John the Ripper
@@ -57,9 +64,9 @@ All experiments were conducted either with my own hardware, selfthosted vm's or 
 ### Reconnaissance
 
 - Nmap
-> Port- and vulnerability scanning of networks, identifying hosts,  OS and service version
+  > Port- and vulnerability scanning of networks, identifying hosts,  OS and service version
 - Wireshark
-> Packet capture and analysis, detecting insecure communications or catching password hashes
+  > Packet capture and analysis, detecting insecure communications or catching password hashes
 
 ### Defensive
 
