@@ -16,12 +16,20 @@ Welcome to my portfolio, a continuous work in progress.
 
 - Google AI Essentials | April 10th, 2026
   > Practical AI literacy, understanding capabilities and limitations, prompt building
+
+  > [Google AI Essentials Certificate](https://coursera.org/share/72d99ef2997ed2faadad63e55bb5e83b)
 - Google Cybersecurity | April 15th, 2026
   > Security theory fundamentals, SQL, Python, SIEM tooling (Splunk)
+
+  > [Google Cybersecurity Certificate](https://coursera.org/share/ffc26d91a4809cfcadbf86396df8c714)
 - TryHackMe Pre Security (Sec0) | April 16th, 2026
   > Networking fundamentals, security concepts, Windows / Linux fundamentals, hardware fundamentals, offensive / defensive security fundamentals
+
+  > [Sec0 Certificate](https://assets.tryhackme.com/certification-certificate/69dfce85c532418aec2403ab.pdf)
 - TryHackMe Cyber Security 101 (Sec1) | May 4th, 2026
   > Network traffic, web vulnerabilities, security operations, bruteforcing / cracking, malware analysis (all hands on)
+
+  > [Sec1 Certificate](https://assets.tryhackme.com/certification-certificate/69f8177f76d33de727dc6ad2.pdf)
 - CompTIA Security+ | August 2nd, 2026
   > Security concepts, cryptography, threat detection, vulnerability management, security architecture,
 
@@ -30,6 +38,8 @@ Welcome to my portfolio, a continuous work in progress.
   > automation and orchestration, incident response, security program management, risk management
   
   > compliance, audits, security awareness training
+
+  > CompTIA Security+ verification ID: be4e0e155ac049c99b5f71a72e62c114
   
 ## My skills and tools
 
