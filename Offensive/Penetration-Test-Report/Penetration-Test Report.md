@@ -6,7 +6,7 @@ This test was conducted on a virtual environment in compliance with NIS2 Article
 
 Critical security risks were found within the tested system regarding outdated Server Message Block and Remote Desktop services. These vulnerabilities can lead to an attacker gaining full control in the form of the NT AUTHORITY\SYSTEM, gaining access to every file and process within the system.
 
-Within a real network, this vulnerability could have significant negative impact on business operations due to stolen data being exfiltrated, as well as in regards to legal ramifications. After NIS2 Article 23, an exploitation of this vulnerability would be classified as 'severe' and would need to be reported to a CSIRT entity within 24 hours or otherwise risk high fines under NIS2 Article 34 Paragraphs 4 and 5 if this was a real buisness system and was exploited by an attacker.
+Within a real network, this vulnerability could have significant negative impact on business operations due to stolen data being exfiltrated, as well as in regards to legal ramifications. After NIS2 Article 23, an exploitation of this vulnerability would be classified as 'severe' and would need to be reported to a CSIRT entity within 24 hours or otherwise risk high fines under NIS2 Article 34 Paragraphs 4 and 5 if this was a real business system and was exploited by an attacker.
 
 ## 2. Scope and Environment
 
@@ -39,11 +39,11 @@ The test itself follows roughly the Penetration Testing Execution Standard as fa
   - Extraction of password hashes and offline cracking
 ### 3.5 Attack chain after MITRE ATT&CK
   - Active scanning for vulnerabilities ![T1595.002](https://attack.mitre.org/techniques/T1595/002/)
-  - Initial access and lateral movement by exploitation of remote services ![T1210](https://attack.mitre.org/techniques/T1210/)
+  - Initial access by exploitation of remote services ![T1210](https://attack.mitre.org/techniques/T1210/)
   - Privilege escalation ![T1068](https://attack.mitre.org/techniques/T1068/)
   - Defense evasion by process injection ![T1055](https://attack.mitre.org/techniques/T1055/)
   - Credential access by Security Account Manager (SAM) credential dumping  ![T1003.002](https://attack.mitre.org/techniques/T1003/002/)
-  - Credential access by brute force password cracking ![1110.002](https://attack.mitre.org/techniques/T1110/002/)
+  - Credential access by brute force password cracking ![T1110.002](https://attack.mitre.org/techniques/T1110/002/)
   - Discovery of files and directories (THM flags) ![T1083](https://attack.mitre.org/techniques/T1083/)
   
 ## 4. Timeline
@@ -112,7 +112,7 @@ msf6>_ sessions -i 2
 
 A second session, this time with a meterpreter shell, was created with NT AUTHORITY\SYSTEM privileges, as confirmed by the target system. 
 
-In the next step, a migration from the currently unstable connection into a more stable process was performed to ensure less interruption during the attack.
+In the next step, a migration from the currently unstable connection into a more stable process was performed to ensure fewer interruption during the attack.
 
 ```
 meterpreter>_ ps
@@ -177,6 +177,6 @@ To comply with ISO 27001 and NIS2 as outlined in section 1, the following action
 - Ensure necessary updates to harden Remote Desktop and potentially restrict access to port 3389
 - Enforce stricter password policy, both regarding length and complexity, but also check in with known leaked passwords
 - If password policy can not be enforced, recommendation to implement MFA for system access
-- Configure firewall to limit inbound SMB or RDP traffic only to authorized personal
+- Configure firewall to limit inbound SMB or RDP traffic only to authorized personnel
 - Deploy IDS or IPS to detect, alert and prevent signatures that point to unusual SMBv1 traffic
 - Ensure Network Layer Authentification is enabled for all RDP connections
