@@ -37,6 +37,14 @@ The test itself follows roughly the Penetration Testing Execution Standard as fa
 ### 3.4 Post-Exploitation
   - Escalating from Windows shell to Meterpreter shell and migrating to spoolsv.exe
   - Extraction of password hashes and offline cracking
+### 3.5 Attack chain after MITRE ATT&CK
+  - Active scanning for vulnerabilities ![T1595.002](https://attack.mitre.org/techniques/T1595/002/)
+  - Initial access and lateral movement by exploitation of remote services ![T1210](https://attack.mitre.org/techniques/T1210/)
+  - Privilege escalation ![T1068](https://attack.mitre.org/techniques/T1068/)
+  - Defense evasion by process injection ![T1055](https://attack.mitre.org/techniques/T1055/)
+  - Credential access by Security Account Manager (SAM) credential dumping  ![T1003.002](https://attack.mitre.org/techniques/T1003/002/)
+  - Credential access by brute force password cracking ![1110.002](https://attack.mitre.org/techniques/T1110/002/)
+  - Discovery of files and directories (THM flags) ![T1083](https://attack.mitre.org/techniques/T1083/)
   
 ## 4. Timeline
 
@@ -104,7 +112,7 @@ msf6>_ sessions -i 2
 
 A second session, this time with a meterpreter shell, was created with NT AUTHORITY\SYSTEM privileges, as confirmed by the target system. 
 
-In the next step, a migration from the currently unstable connection into a more stable process was performed to ensure persistence during the attack.
+In the next step, a migration from the currently unstable connection into a more stable process was performed to ensure less interruption during the attack.
 
 ```
 meterpreter>_ ps
