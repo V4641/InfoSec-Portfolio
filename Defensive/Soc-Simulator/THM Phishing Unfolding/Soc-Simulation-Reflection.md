@@ -35,13 +35,13 @@ Yet I did notice that my understanding of the Splunk syntax is still not very de
 
 ![Splunk-Search](https://github.com/V4641/InfoSec-Portfolio/blob/main/Defensive/Soc-Simulator/THM%20Phishing%20Unfolding/Screenshots/Screenshot%202026-08-17%20211746.png)
 
-# Lessons Learned
+## Lessons Learned
 
 The biggest takeaway, besides the experience of incoming live alerts, was that with the proper knowledge about processes, a lot of false positives can be dismissed relatively easily.
 
 Expanding this knowledge base is one of my primary concerns at the current time, to not be reliant on other sources as much as I did here.
 
-# Conclusion
+## Conclusion
 
 The SOC-Simulator is a fantastic tool and I will keep using it to deepen my practical knowledge further in different scenarios.
 
