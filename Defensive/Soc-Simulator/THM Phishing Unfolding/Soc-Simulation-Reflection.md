@@ -2,7 +2,7 @@
 
 ## Scope, Setup, Goals
 
-The TryHackMe SOC Simulator gives a rare opportunity to not just familiarize myself further with Splunk more but also learn to build a habit of recognition of processes and their parent processes, and getting into a triage workflow.
+The TryHackMe SOC Simulator gives a rare opportunity to not just familiarize myself further with Splunk but also learn to build a habit of recognition of processes and their parent processes, and getting into a triage workflow.
 Handling alerts in realtime, investigating them and deciding if they are classified as True Positive or False Positive within this simulation felt as close to the real thing as I can get at the current stage.
 
 ## Workflow
