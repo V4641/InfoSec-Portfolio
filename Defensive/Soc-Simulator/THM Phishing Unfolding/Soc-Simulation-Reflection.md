@@ -41,6 +41,8 @@ The biggest takeaway, besides the experience of incoming live alerts, was that w
 
 Expanding this knowledge base is one of my primary concerns at the current time, to not be reliant on other sources as much as I did here.
 
+Another area to improve upon is the dashboard internal report-system. While I tried to include all necassery information I do not have the experience yet to create flawless report writeups while triaging multiple alerts.
+
 ## Conclusion
 
 The SOC-Simulator is a fantastic tool and I will keep using it to deepen my practical knowledge further in different scenarios.
