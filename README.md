@@ -84,6 +84,8 @@ All experiments were conducted either with my own hardware, selfhosted vm's or a
   > Running a pi-hole container to block unwanted telemetry, malicious websites or advertisement
 - SIEM tooling
   > Using Splunk through the THM Soc Simulator, alert triaging and log analysis
+  
+  > [SOC-Simulation](https://github.com/V4641/InfoSec-Portfolio/blob/main/Defensive/Soc-Simulator/THM%20Phishing%20Unfolding/Soc-Simulation-Reflection.md) 
 - Incident Response
   > Giving consultation after a RAT infection about how to contain, eradicate and harden their system
 - System Hardening
