@@ -159,7 +159,7 @@ ISO 27001 Control Mapping:
 
 ### Finding 02:
 - Critical Remote Code Execution and DoS Risk under MS12-020
-- Severity: High (CVSS v2.0 Score: 9.3 for RCE, 4.3 for DoS)
+- Severity: Critical (CVSS v2.0 Score: 9.3 for RCE, 4.3 for DoS)
 - Affected Port: 3389 (TCP - Remote Desktop Protocol)
 
 Description:
