@@ -6,7 +6,7 @@ Dieser Test wurde in einer virtuellen Umgebung als Übung durchgeführt, um nach
 
 Im getesteten System wurden kritische Sicherheitsrisiken in Bezug auf veraltete Server Message Block (SMB)- und Remote Desktop Dienste identifiziert. Diese Schwachstellen (Vulnerabilities) ermöglichen es einem Angreifer, die vollständige Kontrolle unter dem Kontext NT AUTHORITY\SYSTEM zu erlangen. Dies ermöglicht uneingeschränkten Zugriff auf das gesamte System, einschließlich aller Dateien, Prozesse und Kernfunktionen des lokalen Betriebssystems.
 
-In einem realen Netzwerk hätte diese Schwachstelle aufgrund des Risikos der Datenexfiltration sowie der daraus resultierenden rechtlichen Konsequenzen erhebliche negative Auswirkungen auf den Geschäftsbetrieb. Gemäß NIS2 Artikel 23 und den BSI würde ein Exploit dieser Schwachstelle als "erheblich" eingestuft werden und müsste innerhalb von 24 Stunden an das CERT-Bund des BSI gemeldet werden. Zusätzlich würde [§ 2 Nr. 11 BSIG](https://www.gesetze-im-internet.de/bsig_2025/__2.html) greifen. Würde das Ausnutzen einer solchen Sicherheitslücke in einem realen Szenario Geschäftssysteme kompromitieren, würde bei Nichtmeldung andernfalls hohe Geldstrafen nach NIS2 Artikel 34 Absätze 4 und 5 drohen.
+In einem realen Netzwerk hätte diese Schwachstelle aufgrund des Risikos der Datenexfiltration sowie der daraus resultierenden rechtlichen Konsequenzen erhebliche negative Auswirkungen auf den Geschäftsbetrieb. Gemäß NIS2 Artikel 23 und dem BSI würde ein Exploit dieser Schwachstelle als "erheblich" eingestuft werden und müsste innerhalb von 24 Stunden an das CERT-Bund des BSI gemeldet werden. Zusätzlich würde [§ 2 Nr. 11 BSIG](https://www.gesetze-im-internet.de/bsig_2025/__2.html) greifen. Würde das Ausnutzen einer solchen Sicherheitslücke in einem realen Szenario Geschäftssysteme kompromittieren, würden bei Nichtmeldung andernfalls hohe Geldstrafen nach NIS2 Artikel 34 Absätze 4 und 5 drohen.
 
 ## 2. Scope und Umgebung
 
@@ -33,7 +33,7 @@ Der Test orientiert sich im Rahmen der Möglichkeiten einer virtuellen Umgebung 
 ### 3.2 Vulnerability Analysis
   - Identifizierung ungepatchter Windows-Schwachstellen in Form von MS17-010 und MS12-020.
 ### 3.3 Exploitation
-  - Nutzung des Metasploitm Frameworks, um Initial Access zum Zielsystem zu erlangen.
+  - Nutzung des Metasploit Frameworks, um Initial Access zum Zielsystem zu erlangen.
   - Ausnutzung (Exploitation) von MS17-010 für Remote Code Execution.
 ### 3.4 Post-Exploitation
   - Privilege Escalation von einer Windows Shell zu einer Meterpreter Shell und Migration in den spoolsv.exe Prozess.
@@ -137,7 +137,7 @@ Der Hash des Benutzers 'Jon' (aad3b435b51404eeaad3b435b51404ee:ffb43f0de35be4d99
 
 Das Passwort für den Benutzer 'Jon' wurde mithilfe von rockyou.txt innerhalb einer Minute als 'a******2' identifiziert.
 
-Daraufhin wurden weitere Flags innerhalb des Zeilsystems auf dem Laufwerk C entdeckt, welche vertrauliche Dateien simulierten.
+Daraufhin wurden weitere Flags innerhalb des Zielsystems auf dem Laufwerk C entdeckt, welche vertrauliche Dateien simulierten.
 
 ![flag1](https://github.com/V4641/InfoSec-Portfolio/blob/main/Offensive/Penetration-Test-Report/Screenshots/Pentest/007%20Lateral_Movement_Flag1.png)
 
@@ -157,13 +157,13 @@ ISO 27001 Control Mapping:
   - A.8.8 Management of Technical Vulnerabilities: Die Organisation hat es versäumt, Informationen über technische Schwachstellen einzuholen und kritische Patches auf das System anzuwenden.
   - A.8.20 Network Security: Die Organisation hat ein unsicheres und obsoletes Protokoll (SMBv1) im Netzwerk aktiv gelassen.
 
-Finding 02:
+### Finding 02:
   - Kritische Remote Code Execution und DoS-Risiko unter MS12-020
   - Severity: Critical (CVSS v2.0 Score: 9.3 für RCE, 4.3 für DoS)
   - Betroffener Port: 3389 (TCP - Remote Desktop Protocol)
 
 Beschreibung:
-Das Target System führt einen Dienst aus, der für MS12-020 anfällig ist. Ein Angreifer kann diese Vulnerability ausnutzen, um einen Denial of Service (DoS) zu verursachen oder Code remote auszuführen (RCE), wodurch sowohl die Verfügbarkeit als auch die Integrität des Target Systems kompromittiert werden.
+Das Zielsystem führt einen Dienst aus, der für MS12-020 anfällig ist. Ein Angreifer kann diese Vulnerability ausnutzen, um einen Denial of Service (DoS) zu verursachen oder Code remote auszuführen (RCE), wodurch sowohl die Verfügbarkeit als auch die Integrität des Target Systems kompromittiert werden.
 
 ISO 27001 Control Mapping:
   - A.8.8 Management of Technical Vulnerabilities: Die Organisation hat es versäumt, bekannte Schwachstellen in Remote-Access-Diensten zu patchen.
