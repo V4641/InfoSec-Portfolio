@@ -90,6 +90,8 @@ All experiments were conducted either with my own hardware, selfhosted vm's or a
   > Giving consultation after a RAT infection about how to contain, eradicate and harden their system
 - System Hardening
   > Best practices in network architecture, password hygiene and security concept implementations
+
+  > [My own Password Checker and Generator[(https://github.com/V4641/InfoSec-Portfolio/tree/main/Defensive/Password-Checker)
 - Reverse engineering
   > Using Ghidra and Dotpeek to reverse engineer programs. CrackMe's for now, but malware in the future too.
 
