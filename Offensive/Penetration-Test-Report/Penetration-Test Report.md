@@ -6,7 +6,7 @@ This test was conducted on a virtual environment in compliance with NIS2 Article
 
 Critical security risks were found within the tested system regarding outdated Server Message Block and Remote Desktop services. These vulnerabilities can lead to an attacker gaining full control in the form of the NT AUTHORITY\SYSTEM, gaining unlimited access to the whole system, including every file, process and even core functions of local Operating System.
 
-Within a real network, this vulnerability could have significant negative impact on business operations due to stolen data being exfiltrated, as well as in regards to legal ramifications. After NIS2 Article 23, an exploitation of this vulnerability would be classified as 'severe' and would need to be reported to a CSIRT entity within 24 hours or otherwise risk high fines under NIS2 Article 34 Paragraphs 4 and 5 if this was a real business system and was exploited by an attacker.
+Within a real network, this vulnerability could have significant negative impact on business operations due to stolen data being exfiltrated, as well as in regards to legal ramifications. Under NIS2 Article 23, an exploitation of this vulnerability would be classified as 'severe' and would need to be reported to a CSIRT entity within 24 hours or otherwise risk high fines under NIS2 Article 34 Paragraphs 4 and 5 if this was a real business system and was exploited by an attacker.
 
 ## 2. Scope and Environment
 
@@ -56,7 +56,7 @@ The engagement started with a ping command to ensure the target system was onlin
 ```
 
 The target system was confirmed to be active under the provided IP address.
-Next a portscan with vulnerability script was performed to not only check for open ports, but also compare these ports with known and exploitable vulnerabilities
+Next a portscan with a vulnerability script was performed to not only check for open ports, but also compare these ports with known and exploitable vulnerabilities
 
 ```
 >_ nmap -sV --script vuln 10.112.140.209
@@ -72,7 +72,7 @@ For port 3389 (Remote Desktop) vulnerability ms12-020, also known as CVE-2012-00
 
 For port 445 (Server Message Block) vulnerability ms17-010, also known as CVE-2017-0143 - 0148, was detected with a critical risk for remote code execution of 9.3 under CVSS 2.0 scoring.
 
-Ms17-010 was chosen as attack vector with the Metasploit framework, that presented 29 modules for ms17-010 and 2 modules for ms12-020
+MS17-010 was chosen as the attack vector with the Metasploit framework, which presented 29 modules for ms17-010 and 2 modules for ms12-020
 
 ```
 >_ msfconsole
@@ -94,7 +94,7 @@ msf6>_ set payload 56
 
 Module 0 (EternalBlue) was selected, target 10.112.140.209 was set and payload 56 (windows/x64/shell/reverse_tcp) was selected.
 
-A previous attempt with payload 31, to start with a meterpreter shell from the beginning failed, which called for a windows shell and pivot to meterpreter after.
+A previous attempt with payload 31, to start with a Meterpreter shell from the beginning failed, which called for a Windows shell and pivot to Meterpreter after.
 
 ![Run_Exploit](https://github.com/V4641/InfoSec-Portfolio/blob/main/Offensive/Penetration-Test-Report/Screenshots/Pentest/004%20Run_Exploit.png)
 
@@ -179,4 +179,4 @@ To comply with ISO 27001 and NIS2 as outlined in section 1, the following action
 - If password policy can not be enforced, recommendation to implement MFA for system access
 - Configure firewall to limit inbound SMB or RDP traffic only to authorized personnel
 - Deploy IDS or IPS to detect, alert and prevent signatures that point to unusual SMBv1 traffic
-- Ensure Network Layer Authentification is enabled for all RDP connections
+- Ensure Network Layer Authentication is enabled for all RDP connections
