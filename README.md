@@ -46,6 +46,23 @@ Welcome to my portfolio, a continuous work in progress.
 In addition to getting certifications, although they also include hands on  practice, be it in full or partially, I do try to broaden my knowledge and capability in multiple directions.
 Those do include familiarizing myself with ISO 27001 and 27002 frameworks, NIS2 and MITRE ATT&CK, that I try to map some of my projects to.
 
+### Defensive
+
+- DNS-Filtering
+  > Running a pi-hole container to block unwanted telemetry, malicious websites or advertisement
+- SIEM tooling
+  > Using Splunk through the THM Soc Simulator, alert triaging and log analysis
+  
+  > [SOC-Simulation](https://github.com/V4641/InfoSec-Portfolio/blob/main/Defensive/Soc-Simulator/THM%20Phishing%20Unfolding/Soc-Simulation-Reflection.md) 
+- Incident Response
+  > Giving consultation after a RAT infection about how to contain, eradicate and harden their system
+- System Hardening
+  > Best practices in network architecture, password hygiene and security concept implementations
+
+  > [My own Password Checker and Generator](https://github.com/V4641/InfoSec-Portfolio/tree/main/Defensive/Password-Checker)
+- Reverse engineering
+  > Using Ghidra and Dotpeek to reverse engineer programs. CrackMe's for now, but malware in the future too.
+
 ### Offensive
 
 All experiments were conducted either with my own hardware, selfhosted vm's or a secure sandbox environment 
@@ -77,23 +94,6 @@ All experiments were conducted either with my own hardware, selfhosted vm's or a
   > Port- and vulnerability scanning of networks, identifying hosts,  OS and service version
 - Wireshark
   > Packet capture and analysis, detecting insecure communications or catching password hashes
-
-### Defensive
-
-- DNS-Filtering
-  > Running a pi-hole container to block unwanted telemetry, malicious websites or advertisement
-- SIEM tooling
-  > Using Splunk through the THM Soc Simulator, alert triaging and log analysis
-  
-  > [SOC-Simulation](https://github.com/V4641/InfoSec-Portfolio/blob/main/Defensive/Soc-Simulator/THM%20Phishing%20Unfolding/Soc-Simulation-Reflection.md) 
-- Incident Response
-  > Giving consultation after a RAT infection about how to contain, eradicate and harden their system
-- System Hardening
-  > Best practices in network architecture, password hygiene and security concept implementations
-
-  > [My own Password Checker and Generator](https://github.com/V4641/InfoSec-Portfolio/tree/main/Defensive/Password-Checker)
-- Reverse engineering
-  > Using Ghidra and Dotpeek to reverse engineer programs. CrackMe's for now, but malware in the future too.
 
 ## Background and education
 
