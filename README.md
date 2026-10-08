@@ -35,7 +35,7 @@ Welcome to my portfolio, a continuous work in progress.
 
   > data protection, security operations, asset management, security monitoring and tooling, access management,
 
-  > automation and orchestration, incident response, security program management, risk management
+  > automation and orchestration, incident response, security program management, risk management,
   
   > compliance, audits, security awareness training
 
@@ -44,7 +44,7 @@ Welcome to my portfolio, a continuous work in progress.
 ## My skills and tools
 
 In addition to getting certifications, although they also include hands on  practice, be it in full or partially, I do try to broaden my knowledge and capability in multiple directions.
-Those do include familiarizing myself with ISO 27001 and 27002 frameworks, NIS2 and MITRE ATT&CK, that I try to map some of my projects to.
+These do include familiarizing myself with ISO 27001 and 27002 frameworks, NIS2 and MITRE ATT&CK, that I try to map some of my projects to.
 
 ### Defensive
 
@@ -61,11 +61,11 @@ Those do include familiarizing myself with ISO 27001 and 27002 frameworks, NIS2 
 
   > [My own Password Checker and Generator](https://github.com/V4641/InfoSec-Portfolio/tree/main/Defensive/Password-Checker)
 - Reverse engineering
-  > Using Ghidra and Dotpeek to reverse engineer programs. CrackMe's for now, but malware in the future too.
+  > Using Ghidra and Dotpeek to reverse engineer software. CrackMes for now, but malware in the future too.
 
 ### Offensive
 
-All experiments were conducted either with my own hardware, selfhosted vm's or a secure sandbox environment 
+All experiments were conducted either with my own hardware, selfhosted VMs or a secure sandbox environment. 
 
 - Havoc Command and Control
   > Experimenting deployment and management of remote access trojans and the integration into a C2 botnet
@@ -98,10 +98,10 @@ All experiments were conducted either with my own hardware, selfhosted vm's or a
 ## Background and education
 
 I am a woman from Germany and hold an Abitur, which is roughly the equivalent to a highschool diploma with advanced placement classes.
-I did study 'Historical Sciences' (which is mostly history, but combined with a bit of philosophy, theology, psychology and digital humanities) at the University of Passau, earning my Bachelor of Arts in July 4th, 2024.
+I did study 'Historical Sciences' (which is mostly history, but combined with a bit of philosophy, theology, psychology and digital humanities) at the University of Passau, earning my Bachelor of Arts on July 4th, 2024.
 
 In the meantime I already developed a newfound interest in tech, starting out with micro controllers and C# programming, but decided to continue my studies for the 'M.A in History and Humanities', which also included
-digital humanities, but quickly realised it is less about history itself but more about teaching it in the field of education.
+digital humanities, but quickly realised it is less about history itself but more about teaching it in the field of education. I also got heavily invested into hardware repair, soldering and building my own projects.
 
 Due to my tech interest growing and my interest in the M.A decreasing I decided to pivot away
 from my old course and fully commit to InfoSec in March of 2026, inspired by someone close to pick up the trade. It has been nothing but excitement to learn and dig into a world that is so vast and I am more than eager to continuously improve, learn and develop.
@@ -126,12 +126,12 @@ Other Certifications and Qualifications I do aim for:
 - Splunk Search Expert 101-103
   > As it is a core part of most SIEM operations and I aim for that field in particular
 - AWS CCP
-  > due to the importance and high usage of cloud enviroments, I deem a deeper understanding on an operational level beneficial
+  > due to the importance and high usage of cloud environments, I deem a deeper understanding on an operational level beneficial
 - TryHackMe SAL1
   > since it is a hands on SOC simulation certificate
-- CompTIA CySA
+- CompTIA CySA+
   > as it is the natural progression after Security+
-- CompTIA Pentest+
+- CompTIA PenTest+
   > as despite my current trajectory, offensive security was what got me into the field and I wish to broaden my understanding on this side as well
 
 ## Contact
