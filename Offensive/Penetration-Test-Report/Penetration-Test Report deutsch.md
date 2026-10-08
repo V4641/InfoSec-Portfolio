@@ -22,7 +22,7 @@ Ziele:
   - Auffinden und Extrahieren von Dateien
   - Cracking von gehashten Secrets innerhalb dieser Dateien
     
-## 3. Methodology
+## 3. Methodik
 
 Der Test wurde in einer Blackbox Umgebung durchgeführt, in der ausschließlich die IP-Adresse des Zielsystems bekannt war.
 Der Test orientiert sich im Rahmen der Möglichkeiten einer virtuellen Umgebung an den Vorgaben des Penetration Testing Execution Standard (PTES).
