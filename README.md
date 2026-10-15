@@ -88,12 +88,16 @@ All experiments were conducted either with my own hardware, selfhosted VMs or a 
 - Rubber Ducky
   > Programming a Pi Pico to mask as a HID and inject code
 
-### Reconnaissance
+### Networking
 
 - Nmap
   > Port- and vulnerability scanning of networks, identifying hosts,  OS and service version
 - Wireshark
-  > Packet capture and analysis, detecting insecure communications or catching password hashes
+  > Packet capture and analysis
+- NetworkMiner
+  > Network overview
+- IDS
+  > Analysing firewall and IDS logs to detect network scanning or data exfiltration
 
 ## Background and education
 
