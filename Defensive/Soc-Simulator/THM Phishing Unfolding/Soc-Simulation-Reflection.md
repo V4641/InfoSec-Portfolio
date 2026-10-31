@@ -3,11 +3,11 @@
 ## Scope, Setup, Goals
 
 The TryHackMe SOC Simulator gives a rare opportunity to not just familiarize myself further with Splunk but also learn to build a habit of recognition of processes and their parent processes, and getting into a triage workflow.
-Handling alerts in realtime, investigating them and deciding if they are classified as True Positive or False Positive within this simulation felt as close to the real thing as I can get at the current stage.
+Handling alerts in real time, investigating them and deciding if they are classified as True Positive or False Positive within this simulation felt as close to the real thing as I can get at the current stage.
 
 ## Workflow
 
-I quickly realised the duality of being a SOC-Analyst. On the one hand closing the fifth ticket of a spam email as a False Positive and asking myself, why this rule has not been tuned yet.
+I quickly realized the duality of being a SOC-Analyst. On the one hand closing the fifth ticket of a spam email as a False Positive and asking myself, why this rule has not been tuned yet.
 On the other hand, the dread of multiple alerts popping up almost at the same time, showing data exfiltration via PowerShell from a workstation and fighting through these tickets.
 
 I did triage depending on priority ( High > Medium > Low ) as well as time ( Older > Newer). 
@@ -41,7 +41,7 @@ The biggest takeaway, besides the experience of incoming live alerts, was that w
 
 Expanding this knowledge base is one of my primary concerns at the current time, to not be reliant on other sources as much as I did here.
 
-Another area to improve upon is the dashboard internal report-system. While I tried to include all necessary information, I do not have the experience yet to create flawless report writeups while triaging multiple alerts.
+Another area to improve upon is the dashboard internal report-system. While I tried to include all necessary information, I do not have the experience yet to create flawless report write ups while triaging multiple alerts.
 
 ## Conclusion
 
