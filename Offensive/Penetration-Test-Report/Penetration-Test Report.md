@@ -98,7 +98,7 @@ A previous attempt with payload 31, to start with a Meterpreter shell from the b
 
 ![Run_Exploit](https://github.com/V4641/InfoSec-Portfolio/blob/main/Offensive/Penetration-Test-Report/Screenshots/Pentest/004%20Run_Exploit.png)
 
-An active session with the target system was established. The engagement continues with the establishment of a meterpreter shell from the attacking system to gain access to meterpreter commands.
+An active session with the target system was established. The engagement continues with the establishment of a Meterpreter shell from the attacking system to gain access to Meterpreter commands.
 
 ```
 msf6>_ use post/multi/manage/shell_to_meterpreter
@@ -110,7 +110,7 @@ msf6>_ sessions -i 2
 < username: NT AUTHORITY\SYSTEM
 ```
 
-A second session, this time with a meterpreter shell, was created with NT AUTHORITY\SYSTEM privileges, as confirmed by the target system. 
+A second session, this time with a Meterpreter shell, was created with NT AUTHORITY\SYSTEM privileges, as confirmed by the target system. 
 
 In the next step, a migration from the currently unstable connection into a more stable process was performed to ensure fewer interruption during the attack.
 
