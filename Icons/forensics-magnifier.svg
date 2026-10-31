@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img">
+  <title>Forensics</title>
+  <desc>Magnifying glass over a document, for forensics and analysis skills</desc>
+  <rect x="1.5" y="1.5" width="61" height="61" rx="14" fill="#16131f" stroke="#b6e04a" stroke-width="2"/>
+  <g fill="none" stroke="#b6e04a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="13" y="11" width="26" height="35" rx="3"/>
+    <path d="M19 21 H33"/>
+    <path d="M19 28 H28"/>
+    <circle cx="40" cy="40" r="9" fill="#16131f"/>
+    <path d="M46.5 46.5 L54 54"/>
+  </g>
+</svg>
