@@ -82,7 +82,7 @@ I did try to sort these skills in regards to four main levels: If I have used th
 ------------
 ### Applied in a real environment
 <details>
-<summary><img src="Icons/consulting.svg" width="28" alt="Defensive"align="absmiddle"> IT security consulting </summary>
+<summary><img src="Icons/consulting.svg" width="28" alt="Consulting"align="absmiddle"> IT security consulting </summary>
 
 ### What I did:
 Consulting staff at the Wolfsteinfreunde e.V. about the risks of their usage of consumer grade Tp-link routers, advising on best practices in regards of passwords and advising staff in the installation and usage of "fdupes" to optimize their NAS due to storage issues.
@@ -94,7 +94,7 @@ Fdupes
 </details>
 
 <details>
-<summary><img src="Icons/data-entry.svg" width="28" alt="Defensive"align="absmiddle"> Quality assurance and data entry </summary>
+<summary><img src="Icons/data-entry.svg" width="28" alt="Data-Entry"align="absmiddle"> Quality assurance and data entry </summary>
 
 ### What I did:
 Sorting through data entries and ensuring their quality, integrity and availability for ADILO GmbH as well
@@ -108,7 +108,7 @@ Internal database
 </details>
 
 <details>
-<summary><img src="Icons/offensive-crosshair.svg" width="28" alt="Defensive"align="absmiddle"> Network mapping and web vulnerability assessment  </summary>
+<summary><img src="Icons/offensive-crosshair.svg" width="28" alt="Offensive"align="absmiddle"> Network mapping and web vulnerability assessment  </summary>
 
 ### What I did:
 Conducting network scans as well as web vulnerability assessments in a consensual setting for friends and acquaintances, testing for open ports, SQLi, SSTI as well as basic directory traversal attacks.
@@ -122,7 +122,7 @@ Nmap, Burpsuite, Gobuster, Sstimap
 ### Applied in my own setup
 
 <details>
-<summary><img src="Icons/network-topology.svg" width="28" alt="Defensive"align="absmiddle"> Virtualization of services through Proxmox   </summary>
+<summary><img src="Icons/network-topology.svg" width="28" alt="Network"align="absmiddle"> Virtualization of services through Proxmox   </summary>
 
 ### What I did:
 Using Proxmox to setup a home server, hosting containers and vm's as well as well as for storage. Main usage for remote network access via tailscale,
@@ -146,10 +146,12 @@ Simple application that cannot store passwords or be used as a standalone pw-man
 Limited coding experience.
 ### Tools:
 .NET, Microsoft Visual Studio, C#
+### Have a look for yourself:
+[My own Password Checker and Generator](https://github.com/V4641/InfoSec-Portfolio/tree/main/Defensive/Password-Checker)
 </details>
 
 <details>
-<summary><img src="Icons/forensics-magnifier.svg" width="28" alt="Defensive"align="absmiddle">  USB-Kill and board level forensics   </summary>
+<summary><img src="Icons/forensics-magnifier.svg" width="28" alt="Forensics"align="absmiddle">  USB-Kill and board level forensics   </summary>
 
 ### What I did:
 Testing a USB-Kill device on own hardware for surge protection, data loss as well as damage to periphery devices and data storage devices.
@@ -163,7 +165,7 @@ USB-Kill, Manual hardware inspection
 </details>
 
 <details>
-<summary><img src="Icons/offensive-crosshair.svg" width="28" alt="Defensive"align="absmiddle">  Rubber ducky and HID exploitation    </summary>
+<summary><img src="Icons/offensive-crosshair.svg" width="28" alt="Offensive"align="absmiddle">  Rubber ducky and HID exploitation    </summary>
 
 ### What I did:
 Programming a Rasberry Pi Pico as a HID, masking its identity to the operating system and inserting keystrokes into a target system for demonstration purposes.
@@ -174,7 +176,7 @@ Thonny, Micro-Python
 </details>
 
 <details>
-<summary><img src="Icons/offensive-crosshair.svg" width="28" alt="Defensive"align="absmiddle"> Havoc Command & Control framework    </summary>
+<summary><img src="Icons/offensive-crosshair.svg" width="28" alt="Offensive"align="absmiddle"> Havoc Command & Control framework    </summary>
 
 ### What I did:
 Everything listed was used on own hardware only!
@@ -185,6 +187,76 @@ Limited scope due to hardware limitations, as modern Windows Defender does autom
 ### Tools:
 Havoc
 </details>
+
+<details>
+<summary><img src="Icons/offensive-crosshair.svg" width="28" alt="Offensive"align="absmiddle"> RFID cloning / replay attacks     </summary>
+
+### What I did:
+Using a Flipper Zero to close unprotected RFID cards, catching IR and sub-ghz signals and replaying it.
+### Limits:
+Limited usecase, as it is most useful as a demonstration tool, how easily certain systems can be interacted with.
+### Tools:
+Flipper Zero
+</details>
+
+-------
+### Lab practiced
+
+<details>
+<summary><img src="Icons/offensive-crosshair.svg" width="28" alt="Offensive"align="absmiddle"> Pentesting     </summary>
+
+### What I did:
+Executing attack chains inside THM and HTB after the 'Penetration Testing Execution Standard' as well as writing a report afterwards. Mapping findings to NIS2, ISO 27001 and MITRE ATT&CK frameworks.
+
+Discovering and exploiting MS17-010 vulnerability on the target system, creating a reverse shell and extracting password hashes and flags.
+### Limits:
+Still at a beginner level, following simple attack vectors with a deliberately vulnerable target system
+### Tools:
+ICMP, Nmap, Metasploit, Hashdump, John
+### Have a look yourself:
+![Penetration-Test "Blue" - TryHackMe](https://github.com/V4641/InfoSec-Portfolio/blob/main/Offensive/Penetration-Test-Report/Penetration-Test%20Report.md)
+</details>
+
+<details>
+<summary><img src="Icons/defensive.svg" width="28" alt="Defensive"align="absmiddle"> SIEM tooling  </summary>
+
+### What I did:
+Using the SOC-Simulator within THM to gain experience both with splunk, analysing concentrated log data as well as working through a ticketing system, writing small reports for every ticket closed.
+
+Analyzing phishing mails and malware files with a a fast MTTR and good true positive and false positive classification.
+### Limits:
+Only training, no real SOC experience. Limited Splunk Syntax knowledge.
+### Tools:
+Splunk
+### Have a look for yourself:
+[SOC-Simulation](https://github.com/V4641/InfoSec-Portfolio/blob/main/Defensive/Soc-Simulator/THM%20Phishing%20Unfolding/Soc-Simulation-Reflection.md) 
+</details>
+
+<details>
+<summary><img src="Icons/forensics-magnifier.svg" width="28" alt="Forensics"align="absmiddle">  Reverse engineering  </summary>
+
+### What I did:
+Trying myself on Crackme challenges as well as inspecting programs I got full consent for
+### Limits:
+Very early beginner level due to lack of programming experience
+### Tools:
+Dotpeek, Ghidra
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
