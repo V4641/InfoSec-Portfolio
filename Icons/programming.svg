@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img">
+  <title>Programming</title>
+  <desc>Code brackets icon for programming skills</desc>
+  <rect x="1.5" y="1.5" width="61" height="61" rx="14" fill="#16131f" stroke="#b48cff" stroke-width="2"/>
+  <g fill="none" stroke="#b48cff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M24 22 L14 32 L24 42"/>
+    <path d="M40 22 L50 32 L40 42"/>
+    <path d="M35 17 L29 47"/>
+  </g>
+</svg>
