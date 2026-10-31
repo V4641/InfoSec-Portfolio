@@ -75,8 +75,7 @@ I did try to sort these skills in regards to four main levels: If I have used th
 | 18 | Cryptography                                     | studied +            | defensive  |
 | 19 | Access management                                | studied              | defensive  |
 | 20 | Risk management                                  | studied              | defensive  |
-| 21 | Compliance and auditing                          | studied              | consulting |
-| 22 | Risk awareness training                          | studied +            | consulting |
+| 21 | Risk awareness training                          | studied +            | consulting |
 +----+--------------------------------------------------+----------------------+------------+
 ```
 ------------
@@ -85,8 +84,7 @@ I did try to sort these skills in regards to four main levels: If I have used th
 <summary><img src="Icons/consulting.svg" width="28" alt="Consulting"align="absmiddle"> IT security consulting </summary>
 
 ### What I did:
-Consulting staff at the Wolfsteinfreunde e.V. about the risks of their usage of consumer grade Tp-link routers, advising on best practices in regards of passwords and advising staff in the installation and usage of "fdupes" to optimize their NAS due to storage issues.
-
+Consulting staff at a local 'Verein' about the risks of their usage of consumer grade Tp-link routers, advising on best practices in regards of passwords and advising staff in the installation and usage of "fdupes" to optimize their NAS due to storage issues.
 ### Limits:
 Very small scope at a 'Verein' with limited IT knowledge.
 ### Tools:
@@ -97,7 +95,7 @@ Fdupes
 <summary><img src="Icons/data-entry.svg" width="28" alt="Data-Entry"align="absmiddle"> Quality assurance and data entry </summary>
 
 ### What I did:
-Sorting through data entries and ensuring their quality, integrity and availability for ADILO GmbH as well
+Sorting through data entries and ensuring their quality, integrity and availability for a contractor as well
 as scraping and preparing data from official sources and public records for company operations.
 Being a contact person for both costumers and local archives for said data collection.
 
@@ -243,76 +241,93 @@ Very early beginner level due to lack of programming experience
 Dotpeek, Ghidra
 </details>
 
+<details>
+<summary><img src="Icons/defensive.svg" width="28" alt="Defensive"align="absmiddle"> Log Analysis  </summary>
 
+### What I did:
+Inspection of packet capture files or firewall logs, filtering and detecting signs of data exfiltration, network detection or MITM attacks both manually and with IDS tooling
+### Limits:
+Limited to THM rooms.
+### Tools:
+Wireshark, Network Miner, Snort
+</details>
 
+<details>
+<summary><img src="Icons/offensive-crosshair.svg" width="28" alt="Offensive"align="absmiddle"> CTF's    </summary>
 
+### What I did:
+Independently starting attack chains within controlled attack box environments and target systems, going through Reconnaissance, Initial Access, Discovery and Data Exfiltration.
 
+Mostly within "Hack the Box" but also THM and RedMimicry
+### Limits: 
+Beginner level, but constantly learning and improving
+### Tools:
+ICMP, Nmap, Metasploit, Hashdump, John, FTP, SSH, Awsclient ... and probably more I don't remember q-q
+</details>
 
+<details>
+<summary><img src="Icons/consulting.svg" width="28" alt="Consulting"align="absmiddle"> NIS2 and ISO 27001 compliance report   </summary>
 
+### What I did:
+Referenced within the Pentesting section, mapping findings to NIS2 and ISO 27001 in the managerial summary and findings sections.
 
+Compliance reporting for a fictional organization hosting the target system of the CTF as training and familiarizing myself with the frameworks
+### Limits:
+Compliance does only work on fiction in a limited capacity
+### Have a look yourself:
+![Penetration-Test "Blue" - TryHackMe](https://github.com/V4641/InfoSec-Portfolio/blob/main/Offensive/Penetration-Test-Report/Penetration-Test%20Report.md)
+</details>
 
+--------
+### Studied
 
+<details>
+<summary><img src="Icons/defensive.svg" width="28" alt="Defensive"align="absmiddle"> Security architecture   </summary>
 
+### What I did:
+Familiarizing myself with zero trust and perimeter network security architecture, SDN and Airgapping
+### Limits:
+Conceptual knowledge without application yet.
+</details>
 
-
-
-
-
-
-
-
-### Defensive
-
-- DNS-Filtering
-  > Running a pi-hole container to block unwanted telemetry, malicious websites or advertisement
-- SIEM tooling
-  > Using Splunk through the THM Soc Simulator, alert triaging and log analysis
+<details>
+<summary><img src="Icons/defensive.svg" width="28" alt="Defensive"align="absmiddle">  Asset management   </summary>
   
-  > [SOC-Simulation](https://github.com/V4641/InfoSec-Portfolio/blob/main/Defensive/Soc-Simulator/THM%20Phishing%20Unfolding/Soc-Simulation-Reflection.md) 
-- Incident Response
-  > Giving consultation after a RAT infection about how to contain, eradicate and harden their system
-- System Hardening
-  > Best practices in network architecture, password hygiene and security concept implementations
+### What I did:
+Familiarizing myself with the process of tracking assets through their lifecycle, data classification, states of data and the means to secure it
+### Limits:
+Conceptual knowledge without application yet.
+</details>
 
-  > [My own Password Checker and Generator](https://github.com/V4641/InfoSec-Portfolio/tree/main/Defensive/Password-Checker)
-- Reverse engineering
-  > Using Ghidra and Dotpeek to reverse engineer software. CrackMes for now, but malware in the future too.
-
-### Offensive
-
-All experiments were conducted either with my own hardware, selfhosted VMs or a secure sandbox environment. 
-
-- Havoc Command and Control
-  > Experimenting deployment and management of remote access trojans and the integration into a C2 botnet
-- Penetration Testing
-  > While just in a controlled environment, following a pentest attack chain after the Penetration Testing Execution Standard
+ <details>
+<summary><img src="Icons/defensive.svg" width="28" alt="Defensive"align="absmiddle">  Cryptography  </summary>
   
-  > Mapping findings to ISO 27001 and MITRE ATT&CK frameworks
+### What I did:
+Familiarizing myself with PKIs, Obfuscation, Hashing, Blockchain and Certificates. Using Sha1 hashing and k-Anonymity to transmit Password Hashes to the HIBP-API within the [Password generator / Checker](https://github.com/V4641/InfoSec-Portfolio/tree/main/Defensive/Password-Checker)
+### Limits:
+Conceptual knowledge without many applications yet.
+</details>
+
+<details>
+<summary><img src="Icons/defensive.svg" width="28" alt="Defensive"align="absmiddle">  Risk management    </summary>
   
-  > ![Penetration-Test "Blue" - TryHackMe](https://github.com/V4641/InfoSec-Portfolio/blob/main/Offensive/Penetration-Test-Report/Penetration-Test%20Report.md)
-- Metasploit
-  > Exploiting known CVEs on deliberately vulnerable machines
-- Hashcat / John the Ripper
-  > Hash cracking either by bruteforce or wordlist
-- RFID cloning
-  > Copying insecure access cards and demonstrating the necessity of securing physical access tokens
-- Replay Attacks
-  > Using captured IR or Sub-GHZ signals to gain access 
-- USB Kill
-  > Using high voltage pulses through USB-Ports to learn about surge protection and potential hardware level destruction as well as board level forensics
-- Rubber Ducky
-  > Programming a Pi Pico to mask as a HID and inject code
+### What I did:
+Familiarizing myself with both qualitative and quantitative risk asessment using SLO, ARO and ALE, Identifying Risks, Creating Risk Management Strategies and Recovery
+### Limits:
+Conceptual knowledge without application yet.
+</details>
 
-### Networking
+<details>
+<summary><img src="Icons/consulting.svg" width="28" alt="Defensive"align="absmiddle">  Risk awareness training    </summary>
+  
+### What I did:
+Familiarizing myself with potential buisness impact and communicating best practices to employees to lower the companys attack surface.
 
-- Nmap
-  > Port- and vulnerability scanning of networks, identifying hosts,  OS and service version
-- Wireshark
-  > Packet capture and analysis
-- NetworkMiner
-  > Network overview
-- IDS
-  > Analysing firewall and IDS logs to detect network scanning or data exfiltration
+Using this to advise family, friends and acquaintances how to proceed after data breaches and stolen access credentials
+### Limits:
+Conceptual knowledge without many applications yet.
+</details>
+
 
 ## Background and education
 
@@ -323,7 +338,7 @@ In the meantime I already developed a newfound interest in tech, starting out wi
 digital humanities, but quickly realised it is less about history itself but more about teaching it in the field of education. I also got heavily invested into hardware repair, soldering and building my own projects.
 
 Due to my tech interest growing and my interest in the M.A decreasing I decided to pivot away
-from my old course and fully commit to InfoSec in March of 2026, inspired by someone close to pick up the trade. It has been nothing but excitement to learn and dig into a world that is so vast and I am more than eager to continuously improve, learn and develop.
+from my old course and fully commit to InfoSec in March of 2026, inspired by someone close to pick up the trade. It has been nothing but excitement to learn and dig into a world that is so vast and I am more than eager to continuously improve, learn and develop. I am more than willing to give it my all, and to learn every trait necassery to solve the tasks ahead.
 
 And while I did not study CS, I am more than capable of writing comprehensive and deep analysis reports as well as translating those to a non tech audience.
 Besides being able to hold my own in numerous presentations in front of large audiences, another transferable skill is a critical and analytical mind,
@@ -341,6 +356,7 @@ Languages:
 
 At the current time, I did finish my Security+ certificate, which was the baseline for me to start looking at the job market. As for now, my roadmap includes this portfolio, uploading projects, pentest reports and other experiments.
 I do aim for Junior SOC or Security Consulting roles at the moment.
+I did also start connecting to people through CTF's and my attendance at it-sa Nürnberg 2026.
 Other Certifications and Qualifications I do aim for:
 - Splunk Search Expert 101-103
   > As it is a core part of most SIEM operations and I aim for that field in particular
@@ -355,15 +371,6 @@ Other Certifications and Qualifications I do aim for:
 
 ## Contact
   **elea-novah@proton.me**
-
- <details>
-<summary><img src="Icons/defensive.svg" width="28" alt="Defensive"align="absmiddle"> C# password checker · Applied</summary>
-
-What I did: ...
-Limits: ...
-Evidence: ...
-
-</details>
 
 
 <h3 align="left">Connect with me:</h3>
