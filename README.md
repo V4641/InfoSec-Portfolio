@@ -9,7 +9,7 @@
 ## Who I am 
 
 Greetings! I am a studied historian, pivoting towards Cybersecurity.
-The aim of this repo is to demonstrate both theoretical skills with the certifications I own as well as hands on skills with my own projects.
+The aim of this repo is to demonstrate both conceptual understanding with the certifications I own as well as hands on skills with my own projects.
 Welcome to my portfolio, a continuous work in progress.
 
 ## My certifications
@@ -27,15 +27,15 @@ Welcome to my portfolio, a continuous work in progress.
 
   > [Sec0 Certificate](https://assets.tryhackme.com/certification-certificate/69dfce85c532418aec2403ab.pdf)
 - TryHackMe Cyber Security 101 (Sec1) | May 4th, 2026
-  > Network traffic, web vulnerabilities, security operations, bruteforcing / cracking, malware analysis (all hands on)
-
+  > Network traffic analysis, web vulnerabilitiy asessment, cryptography
+  
   > [Sec1 Certificate](https://assets.tryhackme.com/certification-certificate/69f8177f76d33de727dc6ad2.pdf)
 - CompTIA Security+ | August 2nd, 2026
   > Security concepts, cryptography, threat detection, vulnerability management, security architecture,
 
-  > data protection, security operations, asset management, security monitoring and tooling, access management,
+  > data protection, asset management, security monitoring and tooling, access management,
 
-  > automation and orchestration, incident response, security program management, risk management,
+  > incident response, security program management, risk management,
   
   > compliance, audits, security awareness training
 
@@ -44,7 +44,111 @@ Welcome to my portfolio, a continuous work in progress.
 ## My skills and tools
 
 In addition to getting certifications, although they also include hands on  practice, be it in full or partially, I do try to broaden my knowledge and capability in multiple directions.
-These do include familiarizing myself with ISO 27001 and 27002 frameworks, NIS2 and MITRE ATT&CK, that I try to map some of my projects to.
+These do include familiarizing myself with ISO 27001 and 27002 frameworks, NIS2 and MITRE ATT&CK, that I try to map some of my projects to. 
+
+I did try to sort these skills in regards to four main levels: If I have used them in a real environment, if I practiced them in my own environment and own hardware / software, if I had exposure to them through labs like "Hack the Box" and "Try hack me" or if they were part of study material for these learning platforms or for certifications. There is some level of overlap tho, for example the level "studied +", that implies this topic was practically applied but not in a scope that allows for it to be placed any higher with confidence.
+
+```
++----+--------------------------------------------------+----------------------+------------+
+| ID |                      Skill                       |        Level         |    Area    |
++----+--------------------------------------------------+----------------------+------------+
+|  1 | IT security consulting                           | real environment     | consulting |
+|  2 | Quality assurance and data entry                 | real environment     | other      |
+|  3 | Network mapping and web vulnerability assessment | real environment     | offensive  |
++----+--------------------------------------------------+----------------------+------------+
+|  4 | Virtualisation of services through Proxmox       | applied in own setup | network    |
+|  5 | Password generator and strength checker          | applied in own setup | defensive  |
+|  6 | USB-Kill and board level forensics               | applied in own setup | forensics  |
+|  7 | Rubber ducky and HID exploitation                | applied in own setup | offensive  |
+|  8 | Havoc Command & Control framework                | applied in own setup | offensive  |
+|  9 | RFID cloning / replay attacks                    | applied in own setup | offensive  |
++----+--------------------------------------------------+----------------------+------------+
+| 10 | Pentesting                                       | lab practiced        | offensive  |
+| 11 | SIEM tooling                                     | lab practiced        | defensive  |
+| 12 | Reverse engineering                              | lab practiced        | forensics  |
+| 13 | Log analysis                                     | lab practiced        | defensive  |
+| 14 | CTF's                                            | lab practiced        | offensive  |
+| 15 | NIS2 and ISO 27001 compliance report             | lab practiced        | consulting |
++----+--------------------------------------------------+----------------------+------------+
+| 16 | Security architecture                            | studied              | defensive  |
+| 17 | Asset management                                 | studied              | defensive  |
+| 18 | Cryptography                                     | studied +            | defensive  |
+| 19 | Access management                                | studied              | defensive  |
+| 20 | Risk management                                  | studied              | defensive  |
+| 21 | Compliance and auditing                          | studied              | consulting |
+| 22 | Risk awareness training                          | studied +            | consulting |
++----+--------------------------------------------------+----------------------+------------+
+```
+------------
+### Applied in a real environment
+<details>
+<summary><img src="Icons/consulting.svg" width="28" alt="Defensive"align="absmiddle"> IT security consulting </summary>
+
+### What I did:
+Consulting staff at the Wolfsteinfreunde e.V. about the risks of their usage of consumer grade Tp-link routers, advising on best practices in regards of passwords and advising staff in the installation and usage of "fdupes" to optimize their NAS due to storage issues.
+
+### Limits:
+Very small scope at a 'Verein' with limited IT knowledge.
+### Tools:
+Fdupes
+</details>
+
+<details>
+<summary><img src="Icons/data-entry.svg" width="28" alt="Defensive"align="absmiddle"> Quality assurance and data entry </summary>
+
+### What I did:
+Sorting through data entries and ensuring their quality, integrity and availability for ADILO GmbH as well
+as scraping and preparing data from official sources and public records for company operations.
+Being a contact person for both costumers and local archives for said data collection.
+
+### Limits:
+Internship with mostly entry level responsibilities.
+### Tools:
+Internal database 
+</details>
+
+<details>
+<summary><img src="Icons/offensive-crosshair.svg" width="28" alt="Defensive"align="absmiddle"> Network mapping and web vulnerability assessment  </summary>
+
+### What I did:
+Conducting network scans as well as web vulnerability assessments in a consensual setting for friends and acquaintances, testing for open ports, SQLi, SSTI as well as basic directory traversal attacks.
+### Limits:
+Small scope outside a professional environment with limited results due to limited practice yet.
+### Tools:
+Nmap, Burpsuite, Gobuster, Sstimap
+</details>
+
+------------
+### Applied in my own setup
+
+<details>
+<summary><img src="Icons/network-topology.svg" width="28" alt="Defensive"align="absmiddle"> Virtualization of services through Proxmox   </summary>
+
+### What I did:
+Using Proxmox to setup a home server, hosting containers and vm's as well as well as for storage. Main usage for remote network access via tailscale,
+hosting a dns-sinkhole to block ads and unwanted telemetry as well as a Havoc teamserver.
+### Limits:
+Limited hardware, exclusively home-use. Not yet comfortable with automation.
+### Tools:
+Proxmox, Pi-hole, Tailscale, Havoc
+</details>
+
+<details>
+<summary><img src="Icons/defensive.svg" width="28" alt="Defensive"align="absmiddle"> Password generator and strength checker  </summary>
+
+### What I did:
+Creating a simple console application in .NET with C# for three basic use cases:
+1. Checking for password strength in regards of composition rules and length.
+2. Checking for password breach status via 'Have I been pawned' API.
+3. Generating truly random passwords with composition, RandomNumberGenerator.GetInt32 and shuffle.
+### Limits:
+Simple application that cannot store passwords or be used as a standalone pw-manager yet.
+Limited coding experience.
+### Tools:
+.NET, Microsoft Visual Studio, C#
+</details>
+
+
 
 ### Defensive
 
@@ -140,6 +244,15 @@ Other Certifications and Qualifications I do aim for:
 
 ## Contact
   **elea-novah@proton.me**
+
+ <details>
+<summary><img src="Icons/defensive.svg" width="28" alt="Defensive"align="absmiddle"> C# password checker · Applied</summary>
+
+What I did: ...
+Limits: ...
+Evidence: ...
+
+</details>
 
 
 <h3 align="left">Connect with me:</h3>
