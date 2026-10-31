@@ -148,6 +148,45 @@ Limited coding experience.
 .NET, Microsoft Visual Studio, C#
 </details>
 
+<details>
+<summary><img src="Icons/forensics-magnifier.svg" width="28" alt="Defensive"align="absmiddle">  USB-Kill and board level forensics   </summary>
+
+### What I did:
+Testing a USB-Kill device on own hardware for surge protection, data loss as well as damage to periphery devices and data storage devices.
+After successful test phase, examining the motherboard to pinpoint surge pathways as well as damage inspection to single chipsets.
+Being able to identify the damage marks a USB-Kill device leaves on the dead physical hardware.
+### Limits:
+Limited hardware supply that is expandable.
+Limited use cases.
+### Tools:
+USB-Kill, Manual hardware inspection
+</details>
+
+<details>
+<summary><img src="Icons/offensive-crosshair.svg" width="28" alt="Defensive"align="absmiddle">  Rubber ducky and HID exploitation    </summary>
+
+### What I did:
+Programming a Rasberry Pi Pico as a HID, masking its identity to the operating system and inserting keystrokes into a target system for demonstration purposes.
+### Limits:
+Simple .py script, no attack chain beyond opening a shell, opening notepad and sending a small message.
+### Tools:
+Thonny, Micro-Python
+</details>
+
+<details>
+<summary><img src="Icons/offensive-crosshair.svg" width="28" alt="Defensive"align="absmiddle"> Havoc Command & Control framework    </summary>
+
+### What I did:
+Everything listed was used on own hardware only!
+
+Using the Havoc client for Remote Access Trojan creation, infecting own hardware and taking control and access via the Havoc Teamserver hosted via Proxmox, creating a small Botnet
+### Limits:
+Limited scope due to hardware limitations, as modern Windows Defender does automatically filter out everything but extremely customized payloads.
+### Tools:
+Havoc
+</details>
+
+
 
 
 ### Defensive
