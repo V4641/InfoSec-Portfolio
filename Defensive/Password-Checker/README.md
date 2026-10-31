@@ -27,7 +27,7 @@ The NIST 800-63B recommendation tackles the real issue of predictable patterns t
 
 While the recommendation of a certain length is nice, the most important aspect is to know about the breach status of a password in use.
 
-For that reason, no matter how many boxes an inserted password ticks, if the password is known on a breachlist on HIBP, it will be strongly recommended not to use it.
+For that reason, no matter how many boxes an inserted password ticks, if the password is known on a breach list on HIBP, it will be strongly recommended not to use it.
 
-No matter the level of entropy and the length, if it has been breached before and publicised, it should not be used again.
+No matter the level of entropy and the length, if it has been breached before and publicized, it should not be used again.
 
