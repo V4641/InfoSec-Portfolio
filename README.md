@@ -27,7 +27,7 @@ Welcome to my portfolio, a continuous work in progress.
 
   > [Sec0 Certificate](https://assets.tryhackme.com/certification-certificate/69dfce85c532418aec2403ab.pdf)
 - TryHackMe Cyber Security 101 (Sec1) | May 4th, 2026
-  > Network traffic analysis, web vulnerabilitiy asessment, cryptography
+  > Network traffic analysis, web vulnerability assessment, cryptography
   
   > [Sec1 Certificate](https://assets.tryhackme.com/certification-certificate/69f8177f76d33de727dc6ad2.pdf)
 - CompTIA Security+ | August 2nd, 2026
@@ -46,7 +46,7 @@ Welcome to my portfolio, a continuous work in progress.
 In addition to getting certifications, although they also include hands on  practice, be it in full or partially, I do try to broaden my knowledge and capability in multiple directions.
 These do include familiarizing myself with ISO 27001 and 27002 frameworks, NIS2 and MITRE ATT&CK, that I try to map some of my projects to. 
 
-I did try to sort these skills in regards to four main levels: If I have used them in a real environment, if I practiced them in my own environment and own hardware / software, if I had exposure to them through labs like "Hack the Box" and "Try hack me" or if they were part of study material for these learning platforms or for certifications. There is some level of overlap tho, for example the level "studied +", that implies this topic was practically applied but not in a scope that allows for it to be placed any higher with confidence.
+I did try to sort these skills in regards to four main levels: If I have used them in a real environment, if I practiced them in my own environment and own hardware / software, if I had exposure to them through labs like "Hack the Box" and "Try hack me" or if they were part of study material for these learning platforms or for certifications. There is some level of overlap though, for example the level "studied +", that implies this topic was practically applied but not in a scope that allows for it to be placed any higher with confidence.
 
 ```
 +----+--------------------------------------------------+----------------------+------------+
@@ -137,7 +137,7 @@ Proxmox, Pi-hole, Tailscale, Havoc
 ### What I did:
 Creating a simple console application in .NET with C# for three basic use cases:
 1. Checking for password strength in regards of composition rules and length.
-2. Checking for password breach status via 'Have I been pawned' API.
+2. Checking for password breach status via 'Have I Been Pwned' API.
 3. Generating truly random passwords with composition, RandomNumberGenerator.GetInt32 and shuffle.
 ### Limits:
 Simple application that cannot store passwords or be used as a standalone pw-manager yet.
@@ -312,7 +312,7 @@ Conceptual knowledge without many applications yet.
 <summary><img src="Icons/defensive.svg" width="28" alt="Defensive"align="absmiddle">  Risk management    </summary>
   
 ### What I did:
-Familiarizing myself with both qualitative and quantitative risk asessment using SLO, ARO and ALE, Identifying Risks, Creating Risk Management Strategies and Recovery
+Familiarizing myself with both qualitative and quantitative risk assessment using SLO, ARO and ALE, Identifying Risks, Creating Risk Management Strategies and Recovery
 ### Limits:
 Conceptual knowledge without application yet.
 </details>
@@ -321,7 +321,7 @@ Conceptual knowledge without application yet.
 <summary><img src="Icons/consulting.svg" width="28" alt="Defensive"align="absmiddle">  Risk awareness training    </summary>
   
 ### What I did:
-Familiarizing myself with potential buisness impact and communicating best practices to employees to lower the companys attack surface.
+Familiarizing myself with potential business impact and communicating best practices to employees to lower the company attack surface.
 
 Using this to advise family, friends and acquaintances how to proceed after data breaches and stolen access credentials
 ### Limits:
@@ -335,10 +335,10 @@ I am a woman from Germany and hold an Abitur, which is roughly the equivalent to
 I did study 'Historical Sciences' (which is mostly history, but combined with a bit of philosophy, theology, psychology and digital humanities) at the University of Passau, earning my Bachelor of Arts on July 4th, 2024.
 
 In the meantime I already developed a newfound interest in tech, starting out with micro controllers and C# programming, but decided to continue my studies for the 'M.A in History and Humanities', which also included
-digital humanities, but quickly realised it is less about history itself but more about teaching it in the field of education. I also got heavily invested into hardware repair, soldering and building my own projects.
+digital humanities, but quickly realized it is less about history itself but more about teaching it in the field of education. I also got heavily invested into hardware repair, soldering and building my own projects.
 
 Due to my tech interest growing and my interest in the M.A decreasing I decided to pivot away
-from my old course and fully commit to InfoSec in March of 2026, inspired by someone close to pick up the trade. It has been nothing but excitement to learn and dig into a world that is so vast and I am more than eager to continuously improve, learn and develop. I am more than willing to give it my all, and to learn every trait necassery to solve the tasks ahead.
+from my old course and fully commit to InfoSec in March of 2026, inspired by someone close to pick up the trade. It has been nothing but excitement to learn and dig into a world that is so vast and I am more than eager to continuously improve, learn and develop. I am more than willing to give it my all, and to learn every trait necessary to solve the tasks ahead.
 
 And while I did not study CS, I am more than capable of writing comprehensive and deep analysis reports as well as translating those to a non tech audience.
 Besides being able to hold my own in numerous presentations in front of large audiences, another transferable skill is a critical and analytical mind,
