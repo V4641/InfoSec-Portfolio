@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img">
+  <title>Offensive</title>
+  <desc>Broken padlock icon with a snapped shackle and a cracked body, for offensive security skills</desc>
+  <rect x="1.5" y="1.5" width="61" height="61" rx="14" fill="#16131f" stroke="#ff5d73" stroke-width="2"/>
+  <g fill="none" stroke="#ff5d73" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="18" y="30" width="28" height="22" rx="4"/>
+    <path d="M24 30 V22 A8 8 0 0 1 28 15.07"/>
+    <path d="M34.74 14.48 A8 8 0 0 1 40 22 V30"/>
+    <path d="M33 30 L29 37 L35 41 L30 46 L32 52"/>
+  </g>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img">
+  <title>Offensive</title>
+  <desc>Crosshair icon for offensive security skills</desc>
+  <rect x="1.5" y="1.5" width="61" height="61" rx="14" fill="#16131f" stroke="#ff5d73" stroke-width="2"/>
+  <g fill="none" stroke="#ff5d73" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="32" cy="32" r="14"/>
+    <circle cx="32" cy="32" r="2"/>
+    <path d="M32 12 V22"/>
+    <path d="M32 42 V52"/>
+    <path d="M12 32 H22"/>
+    <path d="M42 32 H52"/>
+  </g>
+</svg>

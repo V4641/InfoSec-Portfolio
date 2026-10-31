@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img">
+  <title>Consulting</title>
+  <desc>Briefcase icon for consulting skills</desc>
+  <rect x="1.5" y="1.5" width="61" height="61" rx="14" fill="#16131f" stroke="#f5b942" stroke-width="2"/>
+  <g fill="none" stroke="#f5b942" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="14" y="23" width="36" height="26" rx="4"/>
+    <path d="M25 23 V19 A3 3 0 0 1 28 16 H36 A3 3 0 0 1 39 19 V23"/>
+    <path d="M14 35 H50"/>
+    <rect x="29" y="32" width="6" height="6" rx="1.5"/>
+  </g>
+</svg>
