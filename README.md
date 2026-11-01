@@ -26,6 +26,7 @@ Practical AI literacy, understanding capabilities and limitations, prompt buildi
 
 <details>
 <summary><img src="Icons/gcsc.png" width="80" alt="GCSC"align="absmiddle"> Google Cybersecurity Certificate | April 15th, 2026  </summary>
+  
 ### What topics were covered:
 Security theory fundamentals, SQL, Python, SIEM tooling (Splunk), Asset Management
 
