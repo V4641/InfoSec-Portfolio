@@ -14,32 +14,61 @@ Welcome to my portfolio, a continuous work in progress.
 
 ## My certifications
 
-- Google AI Essentials | April 10th, 2026
-  > Practical AI literacy, understanding capabilities and limitations, prompt building
-
-  > [Google AI Essentials Certificate](https://coursera.org/share/72d99ef2997ed2faadad63e55bb5e83b)
-- Google Cybersecurity | April 15th, 2026
-  > Security theory fundamentals, SQL, Python, SIEM tooling (Splunk)
-
-  > [Google Cybersecurity Certificate](https://coursera.org/share/ffc26d91a4809cfcadbf86396df8c714)
-- TryHackMe Pre Security (Sec0) | April 16th, 2026
-  > Networking fundamentals, security concepts, Windows / Linux fundamentals, hardware fundamentals, offensive / defensive security fundamentals
-
-  > [Sec0 Certificate](https://assets.tryhackme.com/certification-certificate/69dfce85c532418aec2403ab.pdf)
-- TryHackMe Cyber Security 101 (Sec1) | May 4th, 2026
-  > Network traffic analysis, web vulnerability assessment, cryptography
+<details>
+<summary><img src="Icons/gaie.png" width="80" alt="GAIE"align="absmiddle"> Google AI Essentials | April 10th, 2026  </summary>
   
-  > [Sec1 Certificate](https://assets.tryhackme.com/certification-certificate/69f8177f76d33de727dc6ad2.pdf)
-- CompTIA Security+ | August 2nd, 2026
-  > Security concepts, cryptography, threat detection, vulnerability management, security architecture,
+### What topics were covered:
+Practical AI literacy, understanding capabilities and limitations, prompt building
 
-  > data protection, asset management, security monitoring and tooling, access management,
+### Verification: 
+[Google AI Essentials Certificate](https://coursera.org/share/72d99ef2997ed2faadad63e55bb5e83b)
+</details>
 
-  > incident response, security program management, risk management,
+<details>
+<summary><img src="Icons/gcsc.png" width="80" alt="GCSC"align="absmiddle"> Google Cybersecurity Certificate | April 15th, 2026  </summary>
+### What topics were covered:
+Security theory fundamentals, SQL, Python, SIEM tooling (Splunk), Asset Management
+
+### Verification: 
+[Google Cybersecurity Certificate](https://coursera.org/share/ffc26d91a4809cfcadbf86396df8c714)
+</details>
+
+
+
+
+<details>
+<summary><img src="Icons/sec0.svg" width="80" alt="Sec0"align="absmiddle"> TryHackMe Pre Security (Sec0) | April 16th, 2026  </summary>
   
-  > compliance, audits, security awareness training
+### What topics were covered:
+Networking fundamentals, security concepts, Windows / Linux fundamentals, hardware fundamentals, offensive / defensive security fundamentals
 
-  > CompTIA Security+ verification ID: be4e0e155ac049c99b5f71a72e62c114
+### Verification: 
+[Sec0 Certificate](https://assets.tryhackme.com/certification-certificate/69dfce85c532418aec2403ab.pdf)
+</details>
+
+
+<details>
+<summary><img src="Icons/sec1.svg" width="80" alt="Sec1"align="absmiddle"> TryHackMe Cyber Security 101 (Sec1) | May 4th, 2026  </summary>
+  
+### What topics were covered:
+Network traffic analysis, web vulnerability assessment, cryptography, Log analysis, SIEM and IDS introduction, Basic exploitations
+
+### Verification: 
+[Sec1 Certificate](https://assets.tryhackme.com/certification-certificate/69f8177f76d33de727dc6ad2.pdf)
+</details>
+
+<details>
+<summary><img src="Icons/security-plus.png" width="80" alt="Sec+"align="absmiddle"> CompTIA Security+ | August 2nd, 2026  </summary>
+  
+### What topics were covered:
+Security concepts, cryptography, threat detection, vulnerability management, security architecture,
+data protection, asset management, security monitoring and tooling, access management,
+incident response, security program management, risk management,
+compliance, audits, security awareness training, vulnerability management and more
+
+### Verification ID: 
+be4e0e155ac049c99b5f71a72e62c114
+</details>
   
 ## My skills and tools
 
