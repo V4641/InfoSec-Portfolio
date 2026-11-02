@@ -296,6 +296,8 @@ Mostly within "Hack the Box" but also THM and RedMimicry
 Beginner level, but constantly learning and improving
 ### Tools:
 ICMP, Nmap, Metasploit, Hashdump, John, FTP, SSH, Awsclient ... and probably more I don't remember q-q
+### Have a look for yourself:
+[CTF-Writeup](https://github.com/V4641/InfoSec-Portfolio/tree/main/Offensive/CTF's/HTB-Vaccine/CTF-Writeup.md)
 </details>
 
 <details>
