@@ -78,6 +78,9 @@ These do include familiarizing myself with ISO 27001 and 27002 frameworks, NIS2 
 
 I did try to sort these skills in regards to four main levels: If I have used them in a real environment, if I practiced them in my own environment and own hardware / software, if I had exposure to them through labs like "Hack the Box" and "Try hack me" or if they were part of study material for these learning platforms or for certifications. There is some level of overlap though, for example the level "studied +", that implies this topic was practically applied but not in a scope that allows for it to be placed any higher with confidence.
 
+Marked with an * means there is a link provided to that project.
+This list will grow while this portfolio will get more and more populated with writeups.
+
 ```
 +----+--------------------------------------------------+----------------------+------------+
 | ID |                      Skill                       |        Level         |    Area    |
@@ -87,22 +90,22 @@ I did try to sort these skills in regards to four main levels: If I have used th
 |  3 | Network mapping and web vulnerability assessment | real environment     | offensive  |
 +----+--------------------------------------------------+----------------------+------------+
 |  4 | Virtualisation of services through Proxmox       | applied in own setup | network    |
-|  5 | Password generator and strength checker          | applied in own setup | defensive  |
+|  5 | Password generator and strength checker *        | applied in own setup | defensive  |
 |  6 | USB-Kill and board level forensics               | applied in own setup | forensics  |
 |  7 | Rubber ducky and HID exploitation                | applied in own setup | offensive  |
 |  8 | Havoc Command & Control framework                | applied in own setup | offensive  |
 |  9 | RFID cloning / replay attacks                    | applied in own setup | offensive  |
 +----+--------------------------------------------------+----------------------+------------+
-| 10 | Pentesting                                       | lab practiced        | offensive  |
-| 11 | SIEM tooling                                     | lab practiced        | defensive  |
+| 10 | Pentesting *                                     | lab practiced        | offensive  |
+| 11 | SIEM tooling *                                   | lab practiced        | defensive  |
 | 12 | Reverse engineering                              | lab practiced        | forensics  |
 | 13 | Log analysis                                     | lab practiced        | defensive  |
 | 14 | CTF's                                            | lab practiced        | offensive  |
-| 15 | NIS2 and ISO 27001 compliance report             | lab practiced        | consulting |
+| 15 | NIS2 and ISO 27001 compliance report *           | lab practiced        | consulting |
 +----+--------------------------------------------------+----------------------+------------+
 | 16 | Security architecture                            | studied              | defensive  |
 | 17 | Asset management                                 | studied              | defensive  |
-| 18 | Cryptography                                     | studied +            | defensive  |
+| 18 | Cryptography *                                   | studied +            | defensive  |
 | 19 | Access management                                | studied              | defensive  |
 | 20 | Risk management                                  | studied              | defensive  |
 | 21 | Risk awareness training                          | studied +            | consulting |
