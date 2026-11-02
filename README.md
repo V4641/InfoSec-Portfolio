@@ -100,7 +100,7 @@ This list will grow while this portfolio will get more and more populated with w
 | 11 | SIEM tooling *                                   | lab practiced        | defensive  |
 | 12 | Reverse engineering                              | lab practiced        | forensics  |
 | 13 | Log analysis                                     | lab practiced        | defensive  |
-| 14 | CTF's                                            | lab practiced        | offensive  |
+| 14 | CTF's *                                          | lab practiced        | offensive  |
 | 15 | NIS2 and ISO 27001 compliance report *           | lab practiced        | consulting |
 +----+--------------------------------------------------+----------------------+------------+
 | 16 | Security architecture                            | studied              | defensive  |
