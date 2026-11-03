@@ -9,13 +9,13 @@
 ----
 
 ## 1. Goal
-Gaining system access, escalating privileges and extracting both user.txt flag as well as root.txt flag
+Gaining system access, escalating privileges and extracting both user.txt flag as well as root.txt flag.
 
 ---
 
 ## 2. Reconnaissance & Initial Access
 * **Given endpoint:** 10.129.90.225
-* Endpoint reachable inside the web browser reveals 'MegaCorp Login' page
+* Endpoint reachable inside the web browser reveals 'MegaCorp Login' page.
 * Initial nmap scan shows open ports 21 FTP, 22 SSH and 80 HTTP.
     
     > sudo nmap -sS -sC -sV -p- -T5 10.129.90.225
@@ -56,7 +56,7 @@ Gaining system access, escalating privileges and extracting both user.txt flag a
 ## 4. Exploitation and escalation
 
 * Using the previous credentials as well as the nmap findings of an open ssh port, makes connecting via ssh the logical next step.
-* postgres:P@s5w0rd! works and gives access in a more stable form and more functionality than the revhttps://www.youtube.com/watch?v=D1wph1c1lA0erse shell earlier.
+* postgres:P@s5w0rd! works and gives access in a more stable form and more functionality than the reverse shell earlier.
 * After initial syntax difficulties, `sudo -l` reveals to sudo functions accessible to user 'postgres'.
   
     > /bin/vi and /etc/postgresql/11/main/pg_hba.conf
