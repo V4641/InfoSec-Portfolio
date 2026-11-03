@@ -42,7 +42,7 @@ Gaining system access, escalating privileges and extracting both user.txt flag a
 * **Solution**: Using burpsuite to catch session cookies of an active search request with admin login privileges.
 * After initial syntax difficulties, attempting to establish an os-shell for remote code execution.
   
-    > sqlmap -u 'http://10.129.90.225/dashboard.php?search=uwu'--cookie: {"Session Cookie"} --os-shell
+    > sqlmap -u 'http[:]//10[.]129[.]90[.]225/dashboard[.]php?search=uwu'--cookie: {"Session Cookie"} --os-shell
 * Successful exploitation of an os-shell gives access to user 'postgres'
 * Due to the unstable nature of a postgresql shell, a listening port is opened on our machine on port 443 via netcat to establish a reverse shell.
   
