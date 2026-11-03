@@ -57,7 +57,7 @@ Gaining system access, escalating privileges and extracting both user.txt flag a
 
 * Using the previous credentials as well as the nmap findings of an open ssh port, makes connecting via ssh the logical next step.
 * postgres:P@s5w0rd! works and gives access in a more stable form and more functionality than the reverse shell earlier.
-* After initial syntax difficulties, `sudo -l` reveals to sudo functions accessible to user 'postgres'.
+* After initial syntax difficulties, `sudo -l` reveals two sudo functions accessible to user 'postgres'.
   
     > /bin/vi and /etc/postgresql/11/main/pg_hba.conf
     > sudo /bin/vi /etc/postgresql/11/main/pg_hba.conf opens pg_hba.conf inside the vi editor
