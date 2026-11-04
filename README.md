@@ -76,7 +76,7 @@ be4e0e155ac049c99b5f71a72e62c114
 In addition to getting certifications, although they also include hands on  practice, be it in full or partially, I do try to broaden my knowledge and capability in multiple directions.
 These do include familiarizing myself with ISO 27001 and 27002 frameworks, NIS2 and MITRE ATT&CK, that I try to map some of my projects to. 
 
-I did try to sort these skills in regards to four main levels: If I have used them in a real environment, if I practiced them in my own environment and own hardware / software, if I had exposure to them through labs like "Hack the Box" and "Try hack me" or if they were part of study material for these learning platforms or for certifications. There is some level of overlap though, for example the level "studied +", that implies this topic was practically applied but not in a scope that allows for it to be placed any higher with confidence.
+I did try to sort these skills in regards to four main levels: If I have used them in a real environment, if I practiced them in my own environment and own hardware / software, if I had exposure to them through labs like "Hack the Box" and "Try hack me" or if they were part of study material for these learning platforms or for certifications. There are overlaps though, for example the level "studied +", that implies this topic was practically applied but not in a scope that allows for it to be placed any higher with confidence.
 
 Marked with an * means there is a link provided to that project.
 This list will grow while this portfolio will get more and more populated with writeups.
