@@ -106,7 +106,7 @@ This list will grow while this portfolio will get more and more populated with w
 | 16 | Security architecture                            | studied              | defensive  |
 | 17 | Asset management                                 | studied              | defensive  |
 | 18 | Cryptography *                                   | studied +            | defensive  |
-| 19 | Access management                                | studied              | defensive  |
+| 19 | Asset management                                 | studied              | defensive  |
 | 20 | Risk management                                  | studied              | defensive  |
 | 21 | Risk awareness training                          | studied +            | consulting |
 +----+--------------------------------------------------+----------------------+------------+
