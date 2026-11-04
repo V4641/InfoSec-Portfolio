@@ -118,7 +118,7 @@ This list will grow while this portfolio will get more and more populated with w
 
 ### What I did:
 Consulting staff at a local 'Verein' about the risks of their usage of consumer grade Tp-link routers, advising on best practices in regards of passwords and advising staff in the installation and usage of "fdupes" to optimize their NAS due to storage issues.
-### Limits:
+### Scope:
 Very small scope at a 'Verein' with limited IT knowledge.
 ### Tools:
 Fdupes
@@ -132,7 +132,7 @@ Sorting through data entries and ensuring their quality, integrity and availabil
 as scraping and preparing data from official sources and public records for company operations.
 Being a contact person for both costumers and local archives for said data collection.
 
-### Limits:
+### Scope:
 Internship with mostly entry level responsibilities.
 ### Tools:
 Internal database 
@@ -145,7 +145,7 @@ Internal database
 Conducting network scans as well as web vulnerability assessments in a consensual setting for friends and acquaintances, testing for open ports, SQLi, SSTI as well as basic directory traversal attacks.
 ### Limits:
 Small scope outside a professional environment with limited results due to limited practice yet.
-### Tools:
+### Scope:
 Nmap, Burpsuite, Gobuster, Sstimap
 </details>
 
@@ -158,7 +158,7 @@ Nmap, Burpsuite, Gobuster, Sstimap
 ### What I did:
 Using Proxmox to setup a home server, hosting containers and vm's as well as well as for storage. Main usage for remote network access via tailscale,
 hosting a dns-sinkhole to block ads and unwanted telemetry as well as a Havoc teamserver.
-### Limits:
+### Scope:
 Limited hardware, exclusively home-use. Not yet comfortable with automation.
 ### Tools:
 Proxmox, Pi-hole, Tailscale, Havoc
@@ -172,7 +172,7 @@ Creating a simple console application in .NET with C# for three basic use cases:
 1. Checking for password strength in regards of composition rules and length.
 2. Checking for password breach status via 'Have I Been Pwned' API.
 3. Generating truly random passwords with composition, RandomNumberGenerator.GetInt32 and shuffle.
-### Limits:
+### Scope:
 Simple application that cannot store passwords or be used as a standalone pw-manager yet.
 Limited coding experience.
 ### Tools:
@@ -188,7 +188,7 @@ Limited coding experience.
 Testing a USB-Kill device on own hardware for surge protection, data loss as well as damage to periphery devices and data storage devices.
 After successful test phase, examining the motherboard to pinpoint surge pathways as well as damage inspection to single chipsets.
 Being able to identify the damage marks a USB-Kill device leaves on the dead physical hardware.
-### Limits:
+### Scope:
 Limited hardware supply that is expandable.
 Limited use cases.
 ### Tools:
@@ -200,7 +200,7 @@ USB-Kill, Manual hardware inspection
 
 ### What I did:
 Programming a Rasberry Pi Pico as a HID, masking its identity to the operating system and inserting keystrokes into a target system for demonstration purposes.
-### Limits:
+### Scope:
 Simple .py script, no attack chain beyond opening a shell, opening notepad and sending a small message.
 ### Tools:
 Thonny, Micro-Python
@@ -210,10 +210,10 @@ Thonny, Micro-Python
 <summary><img src="Icons/offensive-crosshair.svg" width="28" alt="Offensive"align="absmiddle"> Havoc Command & Control framework    </summary>
 
 ### What I did:
-Everything listed was used on own hardware only!
+Using the Havoc client for Remote Access Trojan creation, infecting own hardware and taking control and access via the Havoc Teamserver hosted via Proxmox, creating a small Botnet.
 
-Using the Havoc client for Remote Access Trojan creation, infecting own hardware and taking control and access via the Havoc Teamserver hosted via Proxmox, creating a small Botnet
-### Limits:
+Everything listed was used on own hardware only!
+### Scope:
 Limited scope due to hardware limitations, as modern Windows Defender does automatically filter out everything but extremely customized payloads.
 ### Tools:
 Havoc
@@ -224,7 +224,7 @@ Havoc
 
 ### What I did:
 Using a Flipper Zero to close unprotected RFID cards, catching IR and sub-ghz signals and replaying it.
-### Limits:
+### Scope:
 Limited usecase, as it is most useful as a demonstration tool, how easily certain systems can be interacted with.
 ### Tools:
 Flipper Zero
@@ -240,7 +240,7 @@ Flipper Zero
 Executing attack chains inside THM and HTB after the 'Penetration Testing Execution Standard' as well as writing a report afterwards. Mapping findings to NIS2, ISO 27001 and MITRE ATT&CK frameworks.
 
 Discovering and exploiting MS17-010 vulnerability on the target system, creating a reverse shell and extracting password hashes and flags.
-### Limits:
+### Scope:
 Still at a beginner level, following simple attack vectors with a deliberately vulnerable target system
 ### Tools:
 ICMP, Nmap, Metasploit, Hashdump, John
@@ -255,7 +255,7 @@ ICMP, Nmap, Metasploit, Hashdump, John
 Using the SOC-Simulator within THM to gain experience both with splunk, analysing concentrated log data as well as working through a ticketing system, writing small reports for every ticket closed.
 
 Analyzing phishing mails and malware files with a a fast MTTR and good true positive and false positive classification.
-### Limits:
+### Scope:
 Only training, no real SOC experience. Limited Splunk Syntax knowledge.
 ### Tools:
 Splunk
@@ -268,7 +268,7 @@ Splunk
 
 ### What I did:
 Trying myself on Crackme challenges as well as inspecting programs I got full consent for
-### Limits:
+### Scope:
 Very early beginner level due to lack of programming experience
 ### Tools:
 Dotpeek, Ghidra
@@ -279,7 +279,7 @@ Dotpeek, Ghidra
 
 ### What I did:
 Inspection of packet capture files or firewall logs, filtering and detecting signs of data exfiltration, network detection or MITM attacks both manually and with IDS tooling
-### Limits:
+### Scope:
 Limited to THM rooms.
 ### Tools:
 Wireshark, Network Miner, Snort
@@ -292,7 +292,7 @@ Wireshark, Network Miner, Snort
 Independently starting attack chains within controlled attack box environments and target systems, going through Reconnaissance, Initial Access, Discovery and Data Exfiltration.
 
 Mostly within "Hack the Box" but also THM and RedMimicry
-### Limits: 
+### Scope: 
 Beginner level, but constantly learning and improving
 ### Tools:
 ICMP, Nmap, Metasploit, Hashdump, John, FTP, SSH, Awsclient ... and probably more I don't remember q-q
@@ -307,7 +307,7 @@ ICMP, Nmap, Metasploit, Hashdump, John, FTP, SSH, Awsclient ... and probably mor
 Referenced within the Pentesting section, mapping findings to NIS2 and ISO 27001 in the managerial summary and findings sections.
 
 Compliance reporting for a fictional organization hosting the target system of the CTF as training and familiarizing myself with the frameworks
-### Limits:
+### Scope:
 Compliance does only work on fiction in a limited capacity
 ### Have a look yourself:
 ![Penetration-Test "Blue" - TryHackMe](https://github.com/V4641/InfoSec-Portfolio/blob/main/Offensive/Penetration-Test-Report/Penetration-Test%20Report.md)
@@ -321,7 +321,7 @@ Compliance does only work on fiction in a limited capacity
 
 ### What I did:
 Familiarizing myself with zero trust and perimeter network security architecture, SDN and Airgapping
-### Limits:
+### Scope:
 Conceptual knowledge without application yet.
 </details>
 
@@ -330,7 +330,7 @@ Conceptual knowledge without application yet.
   
 ### What I did:
 Familiarizing myself with the process of tracking assets through their lifecycle, data classification, states of data and the means to secure it
-### Limits:
+### Scope:
 Conceptual knowledge without application yet.
 </details>
 
@@ -339,7 +339,7 @@ Conceptual knowledge without application yet.
   
 ### What I did:
 Familiarizing myself with PKIs, Obfuscation, Hashing, Blockchain and Certificates. Using Sha1 hashing and k-Anonymity to transmit Password Hashes to the HIBP-API within the [Password generator / Checker](https://github.com/V4641/InfoSec-Portfolio/tree/main/Defensive/Password-Checker)
-### Limits:
+### Scope:
 Conceptual knowledge without many applications yet.
 </details>
 
@@ -348,7 +348,7 @@ Conceptual knowledge without many applications yet.
   
 ### What I did:
 Familiarizing myself with both qualitative and quantitative risk assessment using SLO, ARO and ALE, Identifying Risks, Creating Risk Management Strategies and Recovery
-### Limits:
+### Scope:
 Conceptual knowledge without application yet.
 </details>
 
@@ -359,7 +359,7 @@ Conceptual knowledge without application yet.
 Familiarizing myself with potential business impact and communicating best practices to employees to lower the company attack surface.
 
 Using this to advise family, friends and acquaintances how to proceed after data breaches and stolen access credentials
-### Limits:
+### Scope:
 Conceptual knowledge without many applications yet.
 </details>
 
@@ -393,16 +393,16 @@ At the current time, I did finish my Security+ certificate, which was the baseli
 I do aim for Junior SOC or Security Consulting roles at the moment.
 I did also start connecting to people through CTF's and my attendance at it-sa Nürnberg 2026.
 Other Certifications and Qualifications I do aim for:
-- Splunk Search Expert 101-103
-  > As it is a core part of most SIEM operations and I aim for that field in particular
-- AWS CCP
-  > due to the importance and high usage of cloud environments, I deem a deeper understanding on an operational level beneficial
-- TryHackMe SAL1
-  > since it is a hands on SOC simulation certificate
-- CompTIA CySA+
-  > as it is the natural progression after Security+
-- CompTIA PenTest+
-  > as despite my current trajectory, offensive security was what got me into the field and I wish to broaden my understanding on this side as well
+- **Splunk Search Expert 101-103**
+  - As it is a core part of most SIEM operations and I aim for that field in particular
+- **AWS CCP**
+  - Due to the importance and high usage of cloud environments, I deem a deeper understanding on an operational level beneficial
+- **TryHackMe SAL1**
+  - Since it is a hands on SOC simulation certificate
+- **CompTIA CySA+**
+  - As it is the natural progression after Security+
+- **CompTIA PenTest+**
+  - As despite my current trajectory, offensive security was what got me into the field and I wish to broaden my understanding on this side as well
 
 ## Contact
   **elea-novah@proton.me**
