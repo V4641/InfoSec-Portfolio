@@ -130,7 +130,7 @@ Fdupes
 ### What I did:
 Sorting through data entries and ensuring their quality, integrity and availability for a contractor as well
 as scraping and preparing data from official sources and public records for company operations.
-Being a contact person for both costumers and local archives for said data collection.
+Being a contact person for both custumers and local archives for said data collection.
 
 ### Scope:
 Internship with mostly entry level responsibilities.
@@ -223,7 +223,7 @@ Havoc
 <summary><img src="Icons/offensive-crosshair.svg" width="28" alt="Offensive"align="absmiddle"> RFID cloning / replay attacks     </summary>
 
 ### What I did:
-Using a Flipper Zero to close unprotected RFID cards, catching IR and sub-ghz signals and replaying it.
+Using a Flipper Zero to clone unprotected RFID cards, catching IR and sub-ghz signals and replaying it.
 ### Scope:
 Limited usecase, as it is most useful as a demonstration tool, how easily certain systems can be interacted with.
 ### Tools:
@@ -341,6 +341,15 @@ Conceptual knowledge without application yet.
 Familiarizing myself with PKIs, Obfuscation, Hashing, Blockchain and Certificates. Using Sha1 hashing and k-Anonymity to transmit Password Hashes to the HIBP-API within the [Password generator / Checker](https://github.com/V4641/InfoSec-Portfolio/tree/main/Defensive/Password-Checker)
 ### Scope:
 Conceptual knowledge without many applications yet.
+</details>
+
+<details>
+<summary><img src="Icons/defensive.svg" width="28" alt="Defensive"align="absmiddle">  Access management   </summary>
+  
+### What I did:
+Familiarizing myself with Identity and Access Management, provisioning, Permissions, SSO, Federation, MFS, as well as general Access controls and Password security.
+### Scope:
+Conceptual knowledge without application yet.
 </details>
 
 <details>
