@@ -168,7 +168,7 @@ Proxmox, Pi-hole, Tailscale, Havoc
 <summary><img src="Icons/defensive.svg" width="28" alt="Defensive"align="absmiddle"> Password generator and strength checker  </summary>
 
 ### What I did:
-Creating a simple console application in .NET with C# for three basic use cases:
+Programming a simple console application in C# for three basic use cases:
 1. Checking for password strength in regards of composition rules and length.
 2. Checking for password breach status via 'Have I Been Pwned' API.
 3. Generating truly random passwords with composition, RandomNumberGenerator.GetInt32 and shuffle.
@@ -178,7 +178,7 @@ Limited coding experience.
 ### Tools:
 .NET, Microsoft Visual Studio, C#
 ### Have a look for yourself:
-[My own Password Checker and Generator](https://github.com/V4641/InfoSec-Portfolio/tree/main/Defensive/Password-Checker)
+[My own Password Checker and Generator](https://github.com/V4641/Novah-Pass)
 </details>
 
 <details>
