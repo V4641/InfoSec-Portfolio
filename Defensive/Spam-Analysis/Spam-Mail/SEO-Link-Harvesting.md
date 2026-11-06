@@ -69,11 +69,11 @@ Authentication:  SPF: PASS | DKIM: PASS | DMARC: PASS
 **Originating Host: a31ac678da7f**
 
 - Both the Message-ID (<1444311354.1794.1791614474660@a31ac678da7f>) and internal Received header reference a 12-character hexadecimal string as the originating hostname. 
-- This pattern matches standard Docker container IDs, indicating an automated deployment running within a containerized script or agent. 
+- This pattern matches standard Docker container IDs, indicating an automated deployment running within a containerized script or agent.
 
 **SMTP replay and Authentication Bypass**
 
-- Outbound IP: 220.197.32.18 resolves to mail-m16.yeah.net, located by NetEase from China. 
+- Outbound IP: 220.197.32.18 resolves to mail-m16.yeah.net by NetEase from China. 
 - The sender is leveraging a free, legitimate consumer email account on a major provider rather than running their own unauthenticated SMTP server. 
 - Used Protocol: UTF8SMTPA 
 - The message passed SPF, DKIM (1024-bit key, selector s110527), and DMARC (p=none) checks because the Host routed the traffic through valid credentials on NetEase with yeah.net. 
