@@ -93,22 +93,23 @@ This list will grow while this portfolio will get more and more populated with w
 |  5 | Password generator and strength checker *        | applied in own setup | defensive  |
 |  6 | USB-Kill and board level forensics               | applied in own setup | forensics  |
 |  7 | Rubber ducky and HID exploitation                | applied in own setup | offensive  |
-|  8 | Havoc Command & Control framework                | applied in own setup | offensive  |
-|  9 | RFID cloning / replay attacks                    | applied in own setup | offensive  |
+|  8 | Spam Mail Analysis *                             | applied in own setup | forensics  |
+|  9 | Havoc Command & Control framework                | applied in own setup | offensive  |
+| 10 | RFID cloning / replay attacks                    | applied in own setup | offensive  |
 +----+--------------------------------------------------+----------------------+------------+
-| 10 | Pentesting *                                     | lab practiced        | offensive  |
-| 11 | SIEM tooling *                                   | lab practiced        | defensive  |
-| 12 | Reverse engineering                              | lab practiced        | forensics  |
-| 13 | Log analysis                                     | lab practiced        | defensive  |
-| 14 | CTF's *                                          | lab practiced        | offensive  |
-| 15 | NIS2 and ISO 27001 compliance report *           | lab practiced        | consulting |
+| 11 | Pentesting *                                     | lab practiced        | offensive  |
+| 12 | SIEM tooling *                                   | lab practiced        | defensive  |
+| 13 | Reverse engineering                              | lab practiced        | forensics  |
+| 14 | Log analysis                                     | lab practiced        | defensive  |
+| 15 | CTF's *                                          | lab practiced        | offensive  |
+| 16 | NIS2 and ISO 27001 compliance report *           | lab practiced        | consulting |
 +----+--------------------------------------------------+----------------------+------------+
-| 16 | Security architecture                            | studied              | defensive  |
-| 17 | Asset management                                 | studied              | defensive  |
-| 18 | Cryptography *                                   | studied +            | defensive  |
-| 19 | Asset management                                 | studied              | defensive  |
-| 20 | Risk management                                  | studied              | defensive  |
-| 21 | Risk awareness training                          | studied +            | consulting |
+| 17 | Security architecture                            | studied              | defensive  |
+| 18 | Asset management                                 | studied              | defensive  |
+| 19 | Cryptography *                                   | studied +            | defensive  |
+| 20 | Asset management                                 | studied              | defensive  |
+| 21 | Risk management                                  | studied              | defensive  |
+| 22 | Risk awareness training                          | studied +            | consulting |
 +----+--------------------------------------------------+----------------------+------------+
 ```
 ------------
@@ -205,6 +206,20 @@ Simple .py script, no attack chain beyond opening a shell, opening notepad and s
 ### Tools:
 Thonny, Micro-Python
 </details>
+
+<details>
+<summary><img src="Icons/forensics-magnifier.svg" width="28" alt="Forensics"align="absmiddle">  Spam Mail Analysis   </summary>
+
+### What I did:
+Analysing real spam mails sent to me for tactics of social engineering, deconstruction of content and email headers as well as background checks.
+### Scope:
+Quite in depth, deconstructing both intent and methodology
+### Tools:
+Search Engines, Proton Mail
+### Have a look for yourself:
+![SEO-Link-Harvesting Analysis](https://github.com/V4641/InfoSec-Portfolio/blob/main/Defensive/Spam-Analysis/Spam-Mail/SEO-Link-Harvesting.md)
+</details>
+
 
 <details>
 <summary><img src="Icons/offensive-crosshair.svg" width="28" alt="Offensive"align="absmiddle"> Havoc Command & Control framework    </summary>
