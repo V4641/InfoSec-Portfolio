@@ -71,10 +71,11 @@ Authentication:  SPF: PASS | DKIM: PASS | DMARC: PASS
 - Both the Message-ID (<1444311354.1794.1791614474660@a31ac678da7f>) and internal Received header reference a 12-character hexadecimal string as the originating hostname. 
 - This pattern matches standard Docker container IDs, indicating an automated deployment running within a containerized script or agent.
 
-**SMTP replay and Authentication Bypass**
+**False Reputation**
 
 - Outbound IP: 220.197.32.18 resolves to mail-m16.yeah.net by NetEase from China. 
 - The sender is leveraging a free, legitimate consumer email account on a major provider rather than running their own unauthenticated SMTP server. 
 - Used Protocol: UTF8SMTPA 
 - The message passed SPF, DKIM (1024-bit key, selector s110527), and DMARC (p=none) checks because the Host routed the traffic through valid credentials on NetEase with yeah.net. 
-- Proton Mail assigned a Spamscore: 0 because authentication aligned, demonstrating how attackers leverage legitimate consumer webmail platforms to defeat IP reputation checks. 
+- Proton Mail assigned a Spamscore: 0. This is caused both by the lack of malicious links and files, but also proofs leveraging legitimate consumer webmail platforms to defeat IP reputation checks worked.
+- Free yeah.net Account claims to represent Weifang Leimingyun Network Technology, but cannot be verified in any way.
