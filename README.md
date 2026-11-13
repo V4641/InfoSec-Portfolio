@@ -70,7 +70,7 @@ Networking fundamentals, security concepts, Windows / Linux fundamentals, hardwa
 <summary><img src="Icons/sec1.svg" width="80" alt="Sec1"align="absmiddle"> TryHackMe Cyber Security 101 (Sec1) | May 4th, 2026  </summary>
   
 ### What topics were covered:
-Network traffic analysis, web vulnerability assessment, cryptography, Log analysis, SIEM and IDS introduction, Basic exploitations
+Network traffic analysis, web vulnerability assessment, cryptography, Log analysis, SIEM and IDS introduction, Basic exploitation
 
 ### Verification: 
 [Sec1 Certificate](https://assets.tryhackme.com/certification-certificate/69f8177f76d33de727dc6ad2.pdf)
@@ -88,6 +88,21 @@ compliance, audits, security awareness training, vulnerability management and mo
 ### Verification ID: 
 be4e0e155ac049c99b5f71a72e62c114
 </details>
+
+## Course Completion Certifications
+
+<details>
+<summary> Packt Information Security Risk Management for ISO 27001/ISO 27002 | November 13th, 2026  </summary>
+  
+### What topics were covered:
+Risk management, Risk assessment, Threat and vulnerability assessment, Impact and asset valuation, Risk treatment and control selection
+
+### Verification: 
+[Course Completion Certificate](https://coursera.org/share/5d972e9def58e824b1b8bf4c982e7d2d)
+</details>
+
+
+
   
 ## My skills and tools
 
