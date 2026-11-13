@@ -22,6 +22,13 @@ Practical AI literacy, understanding capabilities and limitations, prompt buildi
 
 ### Verification: 
 [Google AI Essentials Certificate](https://coursera.org/share/72d99ef2997ed2faadad63e55bb5e83b)
+
+### Included courses:
+  - Introduction to AI
+  - Maximize productivity with AI tools
+  - Discover the art of prompt building
+  - Use AI responsibly
+  - Stay ahead of the AI curve
 </details>
 
 <details>
@@ -32,6 +39,17 @@ Security theory fundamentals, SQL, Python, SIEM tooling (Splunk), Asset Manageme
 
 ### Verification: 
 [Google Cybersecurity Certificate](https://coursera.org/share/ffc26d91a4809cfcadbf86396df8c714)
+
+### Included courses:
+  - Foundations of Cybersecurity
+  - Play It Safe: Manage Security Risks
+  - Connect and Protect: Networks and Network Security
+  - Tools of the Trade: Linux and SQL
+  - Assets, Threats, and Vulnerabilities
+  - Sound the Alarm: Detection and Response
+  - Automate Cybersecurity Tasks with Python
+  - Put It to Work: Prepare for Cybersecurity Jobs
+  - Accelerate Your Job Search with AI
 </details>
 
 
@@ -416,6 +434,11 @@ Languages:
 At the current time, I did finish my Security+ certificate, which was the baseline for me to start looking at the job market. As for now, my roadmap includes this portfolio, uploading projects, pentest reports and other experiments.
 I do aim for Junior SOC or Security Consulting roles at the moment.
 I did also start connecting to people through CTF's and my attendance at it-sa Nürnberg 2026.
+
+What I am currently working towards:
+- **Packt Information Security Risk Management for ISO 27001/ISO 27002**
+  - As GRC goes a lot deeper than initially thought and I do want to be prepared for opportunities in this field as well
+  
 Other Certifications and Qualifications I do aim for:
 - **Splunk Search Expert 101-103**
   - As it is a core part of most SIEM operations and I aim for that field in particular
