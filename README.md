@@ -449,10 +449,6 @@ Languages:
 At the current time, I did finish my Security+ certificate, which was the baseline for me to start looking at the job market. As for now, my roadmap includes this portfolio, uploading projects, pentest reports and other experiments.
 I do aim for Junior SOC or Security Consulting roles at the moment.
 I did also start connecting to people through CTF's and my attendance at it-sa Nürnberg 2026.
-
-What I am currently working towards:
-- **Packt Information Security Risk Management for ISO 27001/ISO 27002**
-  - As GRC goes a lot deeper than initially thought and I do want to be prepared for opportunities in this field as well
   
 Other Certifications and Qualifications I do aim for:
 - **Splunk Search Expert 101-103**
