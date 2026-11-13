@@ -371,7 +371,7 @@ Conceptual knowledge without application yet.
 <summary><img src="Icons/defensive.svg" width="28" alt="Defensive"align="absmiddle">  Risk management    </summary>
   
 ### What I did:
-Familiarizing myself with both qualitative and quantitative risk assessment using SLO, ARO and ALE, Identifying Risks, Creating Risk Management Strategies and Recovery
+Familiarizing myself with both qualitative and quantitative risk assessment using SLE, ARO and ALE, Identifying Risks, Creating Risk Management Strategies and Recovery
 ### Scope:
 Conceptual knowledge without application yet.
 </details>
