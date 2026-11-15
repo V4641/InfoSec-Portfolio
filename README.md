@@ -420,6 +420,96 @@ Using this to advise family, friends and acquaintances how to proceed after data
 Conceptual knowledge without many applications yet.
 </details>
 
+## My Badges
+
+As part of learning and developing skills, I started off on the 'Try Hack Me' platform, but recently joined 'Hack the Box' as well for more hands-on  and less hand-holdy improvement.
+A selection of Badges from both platforms are linked below, as well as verification links and a short summary.
+
+### Offensive
+
+<details>
+<summary><img src="Icons/Badges/HTB/HTB-Rabbits-Warren.png" width="50" alt="Offensive"align="absmiddle">  HTB Tumble Into the Rabbit's Warren | Oct. 26th 2026   </summary>
+  
+### Content:
+Complete all 8 Tier 0 Boxes at the Starting Point, containing penetration test foundations for enumeration and simple service interactions on both Linux and Windows systems.
+### Verification:
+[Tumble Into the Rabbit's Warren](https://labs.hackthebox.com/achievement/badge/4122399/117)
+</details>
+
+<details>
+<summary><img src="Icons/Badges/HTB/HTB-Wonderland.png" width="50" alt="Offensive"align="absmiddle">  HTB Enter Wonderland | Oct. 26th 2026   </summary>
+  
+### Content:
+Complete all 10 Tier 1 Boxes at the Starting Point, containing exploitation methodology on both Linux and Windows systems.
+### Verification:
+[Enter the Wonderland](https://labs.hackthebox.com/achievement/badge/4122399/118)
+</details>
+
+<details>
+<summary><img src="Icons/Badges/THM/metasploit.png" width="50" alt="Offensive"align="absmiddle">  THM Metasploitable | Apr. 25th 2026   </summary>
+  
+### Content:
+Complete Metasploit Introduction, Exploitation and Meterpreter rooms within the THM 'Exploitation Basics' course.
+### Verification:
+[Metasploitable](https://tryhackme.com/Novah4641/badges/metasploitable?utm_campaign=social_share&utm_medium=social&utm_content=badge&utm_source=copy&share_date=2026-11-15&sharerId=689c784f16c90676eb4e98ab)
+</details>
+
+
+### Defensive
+
+<details>
+<summary><img src="Icons/Badges/THM/wireshark.png" width="50" alt="Defensive"align="absmiddle"> THM Wireshark | Oct. 14th 2026   </summary>
+  
+### Content:
+Complete the Wireshark Basics, Traffic Analysis and Packet Operations rooms within the THM traffic analysis course.
+Learning packet dissection and filtering, WS Syntax as well as identifying port scans, ARP spoofing, Traffic tunneling as well as analysing cleartext and encrypted protocol traffic.
+### Verification:
+[Wireshark](https://tryhackme.com/Novah4641/badges/wireshark?utm_campaign=social_share&utm_medium=social&utm_content=badge&utm_source=copy&share_date=2026-11-15&sharerId=689c784f16c90676eb4e98ab)
+</details>
+
+<details>
+<summary><img src="Icons/Badges/THM/soc-sim-100-percent-true-positive-rate.png" width="50" alt="Defensive"align="absmiddle"> THM 100% True Positive Rate | May 9th 2026   </summary>
+  
+### Content:
+Getting a 100% correct identification rate on true positive events inside the SOC simulator
+
+### Verification:
+[100% True Positive](https://tryhackme.com/Novah4641/badges/soc-sim-100-percent-true-positive-rate?utm_campaign=social_share&utm_medium=social&utm_content=badge&utm_source=copy&share_date=2026-11-15&sharerId=689c784f16c90676eb4e98ab)
+</details>
+
+<details>
+<summary><img src="Icons/Badges/THM/phishing.png" width="50" alt="Defensive"align="absmiddle"> THM Phish Hunter | Aug. 5th 2026   </summary>
+  
+### Content:
+Finishing the 'Greenholt Phish' room, putting the information learning within the 'Phishing Analysis' course to the test, which covered fundamentals, analysis tools, methodology as well as phishing prevention
+
+### Verification:
+[100% True Positive](https://tryhackme.com/Novah4641/badges/soc-sim-100-percent-true-positive-rate?utm_campaign=social_share&utm_medium=social&utm_content=badge&utm_source=copy&share_date=2026-11-15&sharerId=689c784f16c90676eb4e98ab)
+</details>
+
+<details>
+<summary><img src="Icons/Badges/THM/cyberdefenceframework.png" width="50" alt="Defensive"align="absmiddle"> THM Skilled Navigator | May 12th 2026   </summary>
+  
+### Content:
+Finishing the 'Eviction' room within the 'Cybersecurity Framework' course, tracking an attack chain through log analysis and mapping its progression to the MITTRE ATT&CK framework
+
+### Verification:
+[Skilled Navigator](https://tryhackme.com/Novah4641/badges/skilled-navigator?utm_campaign=social_share&utm_medium=social&utm_content=badge&utm_source=copy&share_date=2026-11-15&sharerId=689c784f16c90676eb4e98ab)
+</details>
+
+### Other
+
+<details>
+<summary><img src="Icons/Badges/THM/league-platinum.png" width="50" alt="Other"align="absmiddle"> THM Platinum League | May 11th 2026   </summary>
+  
+### Content:
+Earning first place within the THM Platinum League for earning the most points in this bracket by completing rooms and challenges.
+
+### Verification:
+[Platinum](https://tryhackme.com/Novah4641/badges/platinum-league?utm_campaign=social_share&utm_medium=social&utm_content=badge&utm_source=copy&share_date=2026-11-15&sharerId=689c784f16c90676eb4e98ab)
+</details>
+
+
 
 ## Background and education
 
