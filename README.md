@@ -14,6 +14,8 @@ Welcome to my portfolio, a continuous work in progress.
 
 ## My certifications
 
+The certifications I earned on my path pivoting towards InfoSec. Details, content and verification can be accessed by clicking on the certification name or the little arrow at the beginning of the line.
+
 <details>
 <summary><img src="Icons/gaie.png" width="80" alt="GAIE"align="absmiddle"> Google AI Essentials | April 10th, 2026  </summary>
   
