@@ -83,7 +83,7 @@ Network traffic analysis, web vulnerability assessment, cryptography, Log analys
 Security concepts, cryptography, threat detection, vulnerability management, security architecture,
 data protection, asset management, security monitoring and tooling, access management,
 incident response, security program management, risk management,
-compliance, audits, security awareness training, vulnerability management and more
+compliance, audits, security awareness training and more
 
 ### Verification ID: 
 be4e0e155ac049c99b5f71a72e62c114
@@ -140,7 +140,7 @@ This list will grow while this portfolio will get more and more populated with w
 | 17 | Security architecture                            | studied              | defensive  |
 | 18 | Asset management                                 | studied              | defensive  |
 | 19 | Cryptography *                                   | studied +            | defensive  |
-| 20 | Asset management                                 | studied              | defensive  |
+| 20 | Access management                                | studied              | defensive  |
 | 21 | Risk management                                  | studied              | defensive  |
 | 22 | Risk awareness training                          | studied +            | consulting |
 +----+--------------------------------------------------+----------------------+------------+
@@ -164,7 +164,7 @@ Fdupes
 ### What I did:
 Sorting through data entries and ensuring their quality, integrity and availability for a contractor as well
 as scraping and preparing data from official sources and public records for company operations.
-Being a contact person for both custumers and local archives for said data collection.
+Being a contact person for both customers and local archives for said data collection.
 
 ### Scope:
 Internship with mostly entry level responsibilities.
@@ -177,9 +177,9 @@ Internal database
 
 ### What I did:
 Conducting network scans as well as web vulnerability assessments in a consensual setting for friends and acquaintances, testing for open ports, SQLi, SSTI as well as basic directory traversal attacks.
-### Limits:
-Small scope outside a professional environment with limited results due to limited practice yet.
 ### Scope:
+Small scope outside a professional environment with limited results due to limited practice yet.
+### Tools:
 Nmap, Burpsuite, Gobuster, Sstimap
 </details>
 
@@ -190,7 +190,7 @@ Nmap, Burpsuite, Gobuster, Sstimap
 <summary><img src="Icons/network-topology.svg" width="28" alt="Network"align="absmiddle"> Virtualization of services through Proxmox   </summary>
 
 ### What I did:
-Using Proxmox to setup a home server, hosting containers and vm's as well as well as for storage. Main usage for remote network access via tailscale,
+Using Proxmox to setup a home server, hosting containers and vm's as well as for storage. Main usage for remote network access via tailscale,
 hosting a dns-sinkhole to block ads and unwanted telemetry as well as a Havoc teamserver.
 ### Scope:
 Limited hardware, exclusively home-use. Not yet comfortable with automation.
@@ -233,7 +233,7 @@ USB-Kill, Manual hardware inspection
 <summary><img src="Icons/offensive-crosshair.svg" width="28" alt="Offensive"align="absmiddle">  Rubber ducky and HID exploitation    </summary>
 
 ### What I did:
-Programming a Rasberry Pi Pico as a HID, masking its identity to the operating system and inserting keystrokes into a target system for demonstration purposes.
+Programming a Raspberry Pi Pico as a HID, masking its identity to the operating system and inserting keystrokes into a target system for demonstration purposes.
 ### Scope:
 Simple .py script, no attack chain beyond opening a shell, opening notepad and sending a small message.
 ### Tools:
@@ -250,7 +250,7 @@ Quite in depth, deconstructing both intent and methodology
 ### Tools:
 Search Engines, Proton Mail
 ### Have a look for yourself:
-![SEO-Link-Harvesting Analysis](https://github.com/V4641/InfoSec-Portfolio/blob/main/Defensive/Spam-Analysis/Spam-Mail/SEO-Link-Harvesting.md)
+[SEO-Link-Harvesting Analysis](https://github.com/V4641/InfoSec-Portfolio/blob/main/Defensive/Spam-Analysis/Spam-Mail/SEO-Link-Harvesting.md)
 </details>
 
 
@@ -292,17 +292,17 @@ Discovering and exploiting MS17-010 vulnerability on the target system, creating
 Still at a beginner level, following simple attack vectors with a deliberately vulnerable target system
 ### Tools:
 ICMP, Nmap, Metasploit, Hashdump, John
-### Have a look yourself:
-![Penetration-Test "Blue" - TryHackMe](https://github.com/V4641/InfoSec-Portfolio/blob/main/Offensive/Penetration-Test-Report/Penetration-Test%20Report.md)
+### Have a look for yourself:
+[Penetration-Test "Blue" - TryHackMe](https://github.com/V4641/InfoSec-Portfolio/blob/main/Offensive/Penetration-Test-Report/Penetration-Test%20Report.md)
 </details>
 
 <details>
 <summary><img src="Icons/defensive.svg" width="28" alt="Defensive"align="absmiddle"> SIEM tooling  </summary>
 
 ### What I did:
-Using the SOC-Simulator within THM to gain experience both with splunk, analysing concentrated log data as well as working through a ticketing system, writing small reports for every ticket closed.
+Using the SOC-Simulator within THM to gain experience both with Splunk, analysing concentrated log data as well as working through a ticketing system, writing small reports for every ticket closed.
 
-Analyzing phishing mails and malware files with a a fast MTTR and good true positive and false positive classification.
+Analyzing phishing mails and malware files with a fast MTTR and good true positive and false positive classification.
 ### Scope:
 Only training, no real SOC experience. Limited Splunk Syntax knowledge.
 ### Tools:
@@ -343,7 +343,7 @@ Mostly within "Hack the Box" but also THM and RedMimicry
 ### Scope: 
 Beginner level, but constantly learning and improving
 ### Tools:
-ICMP, Nmap, Metasploit, Hashdump, John, FTP, SSH, Awsclient ... and probably more I don't remember q-q
+ICMP, Nmap, Metasploit, Hashdump, John, FTP, SSH, AWS CLI ... and probably a lot more that becomes part of my methodology with practice.
 ### Have a look for yourself:
 [CTF-Writeup](https://github.com/V4641/InfoSec-Portfolio/tree/main/Offensive/CTF's/HTB-Vaccine/CTF-Writeup.md)
 </details>
@@ -357,8 +357,8 @@ Referenced within the Pentesting section, mapping findings to NIS2 and ISO 27001
 Compliance reporting for a fictional organization hosting the target system of the CTF as training and familiarizing myself with the frameworks
 ### Scope:
 Compliance does only work on fiction in a limited capacity
-### Have a look yourself:
-![Penetration-Test "Blue" - TryHackMe](https://github.com/V4641/InfoSec-Portfolio/blob/main/Offensive/Penetration-Test-Report/Penetration-Test%20Report.md)
+### Have a look for yourself:
+[Penetration-Test "Blue" - TryHackMe](https://github.com/V4641/InfoSec-Portfolio/blob/main/Offensive/Penetration-Test-Report/Penetration-Test%20Report.md)
 </details>
 
 --------
@@ -395,7 +395,7 @@ Conceptual knowledge without many applications yet.
 <summary><img src="Icons/defensive.svg" width="28" alt="Defensive"align="absmiddle">  Access management   </summary>
   
 ### What I did:
-Familiarizing myself with Identity and Access Management, provisioning, Permissions, SSO, Federation, MFS, as well as general Access controls and Password security.
+Familiarizing myself with Identity and Access Management, provisioning, Permissions, SSO, Federation, MFA, as well as general Access controls and Password security.
 ### Scope:
 Conceptual knowledge without application yet.
 </details>
@@ -481,17 +481,17 @@ Getting a 100% correct identification rate on true positive events inside the SO
 <summary><img src="Icons/Badges/THM/phishing.png" width="50" alt="Defensive"align="absmiddle"> THM Phish Hunter | Aug. 5th 2026   </summary>
   
 ### Content:
-Finishing the 'Greenholt Phish' room, putting the information learning within the 'Phishing Analysis' course to the test, which covered fundamentals, analysis tools, methodology as well as phishing prevention
+Finishing the 'Greenholt Phish' room, putting the information learned within the 'Phishing Analysis' course to the test, which covered fundamentals, analysis tools, methodology as well as phishing prevention
 
 ### Verification:
-[100% True Positive](https://tryhackme.com/Novah4641/badges/soc-sim-100-percent-true-positive-rate?utm_campaign=social_share&utm_medium=social&utm_content=badge&utm_source=copy&share_date=2026-11-15&sharerId=689c784f16c90676eb4e98ab)
+[Phish Hunter](https://tryhackme.com/Novah4641/badges/phishing?utm_campaign=social_share&utm_medium=social&utm_content=badge&utm_source=copy&share_date=2026-11-15&sharerId=689c784f16c90676eb4e98ab)
 </details>
 
 <details>
 <summary><img src="Icons/Badges/THM/cyberdefenceframework.png" width="50" alt="Defensive"align="absmiddle"> THM Skilled Navigator | May 12th 2026   </summary>
   
 ### Content:
-Finishing the 'Eviction' room within the 'Cybersecurity Framework' course, tracking an attack chain through log analysis and mapping its progression to the MITTRE ATT&CK framework
+Finishing the 'Eviction' room within the 'Cybersecurity Framework' course, tracking an attack chain through log analysis and mapping its progression to the MITRE ATT&CK framework
 
 ### Verification:
 [Skilled Navigator](https://tryhackme.com/Novah4641/badges/skilled-navigator?utm_campaign=social_share&utm_medium=social&utm_content=badge&utm_source=copy&share_date=2026-11-15&sharerId=689c784f16c90676eb4e98ab)
@@ -516,7 +516,7 @@ Earning first place within the THM Platinum League for earning the most points i
 I am a woman from Germany and hold an Abitur, which is roughly the equivalent to a highschool diploma with advanced placement classes.
 I did study 'Historical Sciences' (which is mostly history, but combined with a bit of philosophy, theology, psychology and digital humanities) at the University of Passau, earning my Bachelor of Arts on July 4th, 2024.
 
-In the meantime I already developed a newfound interest in tech, starting out with micro controllers and C# programming, but decided to continue my studies for the 'M.A in History and Humanities', which also included
+In the meantime I already developed a newfound interest in tech, starting out with micro controllers and C# programming, but decided to continue my studies for the 'M.A. in History and Humanities', which also included
 digital humanities, but quickly realized it is less about history itself but more about teaching it in the field of education. I also got heavily invested into hardware repair, soldering and building my own projects.
 
 Due to my tech interest growing and my interest in the M.A decreasing I decided to pivot away
